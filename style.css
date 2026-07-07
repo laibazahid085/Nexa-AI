@@ -58,7 +58,7 @@
     .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
-        body {
+        .contact {
             background-color: #fcf8fb;
             font-family: 'Inter', sans-serif;
             color: #1b1b1d;

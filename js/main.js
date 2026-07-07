@@ -169,7 +169,7 @@ const bentoObserver = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             entry.target.classList.remove('opacity-0', 'translate-y-10');
             entry.target.classList.add('opacity-100', 'translate-y-0');
-
+            
             // Stop observing after the animation completes once
             bentoObserver.unobserve(entry.target);
         }

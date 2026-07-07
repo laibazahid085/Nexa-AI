@@ -107,25 +107,25 @@
   </script>
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-surface text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
+<body class="bg-surface text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed overflow-x-hidden">
 <!-- TopNavBar Navigation Shell -->
 <div id="navbar"></div>
-<main class="max-w-container-max mx-auto px-margin-desktop">
+<main class="max-w-container-max mx-auto px-4 sm:px-6 md:px-margin-desktop">
 <!-- Hero / Header Section -->
-<header class="py-section-gap max-w-3xl">
-<h1 class="font-display-lg text-display-lg mb-4">Genuine Apple Parts</h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant">
+<header class="py-12 md:py-section-gap max-w-3xl">
+<h1 class="font-display-lg text-3xl sm:text-4xl md:text-display-lg mb-4">Genuine Apple Parts</h1>
+<p class="text-base sm:text-body-lg font-body-lg text-on-surface-variant">
         Maintain the integrity of your devices with 100% original components. Our inventory consists of genuine parts sourced through certified channels, ensuring peak performance, thermal stability, and lasting reliability for your iPhone.
       </p>
 </header>
 <div class="flex flex-col md:flex-row gap-gutter">
 <!-- SideNavBar / Filter Logic -->
-<aside class="flex flex-col w-64 p-stack-lg gap-stack-md shrink-0 bg-surface-container-lowest border border-outline-variant rounded-xl h-fit sticky top-24">
+<aside class="flex flex-col w-full md:w-64 p-4 sm:p-6 md:p-stack-lg gap-stack-md shrink-0 bg-surface-container-lowest border border-outline-variant rounded-xl h-fit md:sticky md:top-24 mb-6 md:mb-0">
 <div class="mb-2">
-<h3 class="text-headline-sm font-headline-sm font-semibold text-on-surface">Filters</h3>
+<h3 class="text-lg sm:text-headline-sm font-headline-sm font-semibold text-on-surface">Filters</h3>
 <p class="text-body-sm font-body-sm text-on-surface-variant">Refine your search</p>
 </div>
-<div class="space-y-4">
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-4 md:space-y-4 md:gap-0">
 <div class="space-y-2">
 <span class="text-label-md font-label-md text-primary font-bold flex items-center gap-2">
 <span class="material-symbols-outlined text-[20px]">category</span>
@@ -177,135 +177,135 @@
 </aside>
 <!-- Parts Grid -->
 <section class="flex-1">
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
 <!-- Card 1 -->
-<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-<div class="aspect-square relative overflow-hidden bg-surface-container-low">
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)] flex flex-col">
+<div class="aspect-square relative overflow-hidden bg-surface-container-low w-full">
 <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A professional studio photograph of a genuine Apple iPhone 15 Pro Max display panel. The screen is shown from the front with its reflective, deep black glass surface and precise edges. The lighting is bright and technical, highlighting the high-quality craftsmanship and thin bezels against a clean light grey background, emphasizing professional tech repair quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdqWzf3A97kyH-caFInUPBV4lM1zv76w0iO2924V86obQ5raikDoSxCzpuhdHVcGTSCAqXb_R1tpNzuex8Bo2CyZG3jmwmDZorObk1CpmS3WZoJMALdVoFJdxZn3BivnAtO5NLhRp0WVjbX-_rfkcnLWD4zUYGO7YNwST5RLmS6iH5Aypn3io2IKCrpE-jCxPP-c3vhf1WfL2sKFADVxXP1NI94eQ7jrNyF0vYYhbmiyHi8gow2eUWqA"/>
 <div class="absolute top-4 left-4 bg-tertiary/10 text-tertiary px-3 py-1 rounded-full text-label-sm font-label-sm flex items-center gap-1">
 <span class="w-1.5 h-1.5 bg-tertiary rounded-full"></span>
                 In Stock
               </div>
 </div>
-<div class="p-stack-md flex flex-col h-full">
+<div class="p-stack-md flex flex-col flex-1">
 <p class="text-label-sm font-label-sm text-primary mb-1">Screens</p>
-<h3 class="text-headline-md font-headline-md mb-2">iPhone 15 Pro Max Screen Replacement</h3>
+<h3 class="text-xl md:text-headline-md font-headline-md mb-2">iPhone 15 Pro Max Screen Replacement</h3>
 <p class="text-body-sm text-on-surface-variant mb-4">Compatible with iPhone 15 Pro Max</p>
 <div class="mt-auto">
-<div class="text-headline-md font-bold mb-4">Rs. 85,000</div>
+<div class="text-xl font-bold mb-4">Rs. 85,000</div>
 <div class="grid grid-cols-2 gap-2">
-<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors">View Details</button>
-<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all">WhatsApp</button>
+<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors text-sm sm:text-base">View Details</button>
+<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all text-sm sm:text-base">WhatsApp</button>
 </div>
 </div>
 </div>
 </div>
 <!-- Card 2 -->
-<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-<div class="aspect-square relative overflow-hidden bg-surface-container-low">
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)] flex flex-col">
+<div class="aspect-square relative overflow-hidden bg-surface-container-low w-full">
 <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Close-up commercial shot of a brand new, original Apple iPhone battery. The silver casing is pristine with clear printed technical specifications and Apple logo. It is placed on a white technical surface with soft, diffused top-down lighting creating subtle shadows. The aesthetic is clinical and high-end, representing authentic component excellence." src="https://lh3.googleusercontent.com/aida-public/AB6AXuApdKOU-G-h5S33K41zm-m3KiUeDjKnucx_nkR5Dfpk947U9MAIP6E7X1ZF75HgUjfB8jUFJo5YXv6H8fx90JQG9qW-QINDYBSYxa6BEEdgUw41FTvIYHOKxofTPb7C_yB-3OX_lVK1dYMb8fqPiY-rgoIPxTqNS-AU5wn0oaVJl6qX-AWMhgVgVnBVjBnjOMOvlVeP3L1q853UqGF8Kpou5f8cNOEhi4VDlOjXlu41H3rMhwdFiO3ECw"/>
 <div class="absolute top-4 left-4 bg-tertiary/10 text-tertiary px-3 py-1 rounded-full text-label-sm font-label-sm flex items-center gap-1">
 <span class="w-1.5 h-1.5 bg-tertiary rounded-full"></span>
                 In Stock
               </div>
 </div>
-<div class="p-stack-md flex flex-col h-full">
+<div class="p-stack-md flex flex-col flex-1">
 <p class="text-label-sm font-label-sm text-primary mb-1">Batteries</p>
-<h3 class="text-headline-md font-headline-md mb-2">iPhone 14 Battery Replacement</h3>
+<h3 class="text-xl md:text-headline-md font-headline-md mb-2">iPhone 14 Battery Replacement</h3>
 <p class="text-body-sm text-on-surface-variant mb-4">Compatible with iPhone 14</p>
 <div class="mt-auto">
-<div class="text-headline-md font-bold mb-4">Rs. 18,500</div>
+<div class="text-xl font-bold mb-4">Rs. 18,500</div>
 <div class="grid grid-cols-2 gap-2">
-<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors">View Details</button>
-<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all">WhatsApp</button>
+<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors text-sm sm:text-base">View Details</button>
+<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all text-sm sm:text-base">WhatsApp</button>
 </div>
 </div>
 </div>
 </div>
 <!-- Card 3 -->
-<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-<div class="aspect-square relative overflow-hidden bg-surface-container-low">
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)] flex flex-col">
+<div class="aspect-square relative overflow-hidden bg-surface-container-low w-full">
 <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A detailed technical view of an original iPhone 15 Pro rear camera module. The three lenses are visible with their sapphire glass coatings, housed in a metallic bracket. The image is crisp and professional, using high-key studio lighting that emphasizes the complex optical components and the authenticity of the part in a Corporate Modern style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqpb5sOAwo6SzNoZFeox9JSxopYyigLeWZCAZV6vSxFYEItpopPclU2m4BPFIXn5NVQPyNPE9Pokd_7n9pc6FNEXJBe0LiEiuD2tPHlA693LN3MtxJtkvoUlQK5paRY_b5l-rkEcgsjf6FaIW0ZohCTKXaHXlbY3E-pGIUAy96JSIRyN74tryAHGGi2ItBiDxrtv9l4PBWZWNbZ1ZIPOvV1DDWUNgZbGIFQDxU03O7Rz5jsF2MsIDk1w"/>
 <div class="absolute top-4 left-4 bg-tertiary/10 text-tertiary px-3 py-1 rounded-full text-label-sm font-label-sm flex items-center gap-1">
 <span class="w-1.5 h-1.5 bg-tertiary rounded-full"></span>
                 In Stock
               </div>
 </div>
-<div class="p-stack-md flex flex-col h-full">
+<div class="p-stack-md flex flex-col flex-1">
 <p class="text-label-sm font-label-sm text-primary mb-1">Cameras</p>
-<h3 class="text-headline-md font-headline-md mb-2">iPhone 15 Pro Triple Camera Set</h3>
+<h3 class="text-xl md:text-headline-md font-headline-md mb-2">iPhone 15 Pro Triple Camera Set</h3>
 <p class="text-body-sm text-on-surface-variant mb-4">Compatible with iPhone 15 Pro</p>
 <div class="mt-auto">
-<div class="text-headline-md font-bold mb-4">Rs. 42,000</div>
+<div class="text-xl font-bold mb-4">Rs. 42,000</div>
 <div class="grid grid-cols-2 gap-2">
-<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors">View Details</button>
-<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all">WhatsApp</button>
+<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors text-sm sm:text-base">View Details</button>
+<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all text-sm sm:text-base">WhatsApp</button>
 </div>
 </div>
 </div>
 </div>
 <!-- Card 4 -->
-<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-<div class="aspect-square relative overflow-hidden bg-surface-container-low">
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)] flex flex-col">
+<div class="aspect-square relative overflow-hidden bg-surface-container-low w-full">
 <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A clean, isolated view of an original iPhone 13 housing frame in Midnight color. The aluminum chassis is shown at an angle to highlight the buttons and cutouts. High-end product photography with soft reflections on the metallic surfaces, presented on a light neutral background following premium e-commerce standards." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaAeTqgOAhgFXW2r-SSU7XD6gZ7U2ZOktqNJaYwb-sNPeCJCrI8IIEhPAVbi8bxAk9aSgXVmCZfKP5uRiePQYMmpTqcb8WrE0EgCT83RKYR3-4EqGaS408ejgKJoYy1JLmzeK5qw0Da-u9nd_8tvCg7cVJDin2RJTlr-1VkzzKfkojIWkkvtkEXTQRo2lBtClihtEnlljH-mFAFcOQGMkBauLsTR1w7gA_R-tC8gwzAY0em1st1xWFnQ"/>
 <div class="absolute top-4 left-4 bg-error-container text-error px-3 py-1 rounded-full text-label-sm font-label-sm flex items-center gap-1">
 <span class="w-1.5 h-1.5 bg-error rounded-full"></span>
                 Out of Stock
               </div>
 </div>
-<div class="p-stack-md flex flex-col h-full">
+<div class="p-stack-md flex flex-col flex-1">
 <p class="text-label-sm font-label-sm text-primary mb-1">Housing</p>
-<h3 class="text-headline-md font-headline-md mb-2">iPhone 13 Rear Housing Chassis</h3>
+<h3 class="text-xl md:text-headline-md font-headline-md mb-2">iPhone 13 Rear Housing Chassis</h3>
 <p class="text-body-sm text-on-surface-variant mb-4">Compatible with iPhone 13</p>
 <div class="mt-auto">
-<div class="text-headline-md font-bold mb-4">Rs. 25,000</div>
+<div class="text-xl font-bold mb-4">Rs. 25,000</div>
 <div class="grid grid-cols-2 gap-2">
-<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors">View Details</button>
-<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all">WhatsApp</button>
+<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors text-sm sm:text-base">View Details</button>
+<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all text-sm sm:text-base">WhatsApp</button>
 </div>
 </div>
 </div>
 </div>
 <!-- Card 5 -->
-<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-<div class="aspect-square relative overflow-hidden bg-surface-container-low">
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)] flex flex-col">
+<div class="aspect-square relative overflow-hidden bg-surface-container-low w-full">
 <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Macro photography of an original Apple charging port flex cable for iPhone 14 Pro Max. Every tiny pin and gold contact is visible in sharp focus. The lighting is crisp, emphasizing the precision of the electrical component. Background is a soft white studio setting, creating a professional and trustworthy repair part aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1VSgnChOvnQ-TN2TaBMJnqHAi_0nJrrvKDCVKY58Up46H1NF4RhDsJW3DTYDTsomzJtrhHllE1mKndwFiydM00aT4NVvgjy04Rngk6XFyUyr1Xn-ATRmCTMFMXIxejSBgZBhaisLshcU6CSUTSZuEW3meFt2NG_efnZselCsTxI26mpe7AC0iony3IiybPAtXElAGtKSjkOcNpOu0-GHXoJKDgIVFa-zifyzu45q4WBnvDTMlHRa4rw"/>
 <div class="absolute top-4 left-4 bg-tertiary/10 text-tertiary px-3 py-1 rounded-full text-label-sm font-label-sm flex items-center gap-1">
 <span class="w-1.5 h-1.5 bg-tertiary rounded-full"></span>
                 In Stock
               </div>
 </div>
-<div class="p-stack-md flex flex-col h-full">
+<div class="p-stack-md flex flex-col flex-1">
 <p class="text-label-sm font-label-sm text-primary mb-1">Charging Port</p>
-<h3 class="text-headline-md font-headline-md mb-2">iPhone 14 Pro Max Charging Port</h3>
+<h3 class="text-xl md:text-headline-md font-headline-md mb-2">iPhone 14 Pro Max Charging Port</h3>
 <p class="text-body-sm text-on-surface-variant mb-4">Compatible with iPhone 14 Pro Max</p>
 <div class="mt-auto">
-<div class="text-headline-md font-bold mb-4">Rs. 12,500</div>
+<div class="text-xl font-bold mb-4">Rs. 12,500</div>
 <div class="grid grid-cols-2 gap-2">
-<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors">View Details</button>
-<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all">WhatsApp</button>
+<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors text-sm sm:text-base">View Details</button>
+<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all text-sm sm:text-base">WhatsApp</button>
 </div>
 </div>
 </div>
 </div>
 <!-- Card 6 -->
-<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)]">
-<div class="aspect-square relative overflow-hidden bg-surface-container-low">
+<div class="bg-surface-container-lowest border border-outline-variant rounded-xl overflow-hidden group transition-all duration-300 hover:shadow-[0px_4px_20px_rgba(0,0,0,0.05)] flex flex-col">
+<div class="aspect-square relative overflow-hidden bg-surface-container-low w-full">
 <img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Technical product shot of an original Apple Taptic Engine for iPhone 15. The rectangular motor is shown with its precise connector cables. Bright, even lighting highlights the metallic texture and official model markings. The clean presentation on a white background evokes a sense of high-end expert service and parts authenticity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6i4gOuRxMvp9ccU1Hi2tvXaxsZInWTUdBjiURgTE6o84VQMlK-iU5pSsQt71xBCTOWzhABcPhcZpxYx6XGQ16Vu2WnXaCnnHwmdorAgpOk_3DBF9aWg1F_jNaGLuhEmPXn9K5CFW3P3IswZhH0Z3tgA85OK6SgmPPbjsa3rbSn-X5XD8SmNcLRTXWorFdgg0MBu_uy128MIC23HfG2olLGQN9QLL55k8MI42W3CzaIy_L5VtqUNRE3Q"/>
 <div class="absolute top-4 left-4 bg-tertiary/10 text-tertiary px-3 py-1 rounded-full text-label-sm font-label-sm flex items-center gap-1">
 <span class="w-1.5 h-1.5 bg-tertiary rounded-full"></span>
                 In Stock
               </div>
 </div>
-<div class="p-stack-md flex flex-col h-full">
+<div class="p-stack-md flex flex-col flex-1">
 <p class="text-label-sm font-label-sm text-primary mb-1">Taptic Engine</p>
-<h3 class="text-headline-md font-headline-md mb-2">iPhone 15 Series Taptic Engine</h3>
+<h3 class="text-xl md:text-headline-md font-headline-md mb-2">iPhone 15 Series Taptic Engine</h3>
 <p class="text-body-sm text-on-surface-variant mb-4">Compatible with all iPhone 15 models</p>
 <div class="mt-auto">
-<div class="text-headline-md font-bold mb-4">Rs. 9,500</div>
+<div class="text-xl font-bold mb-4">Rs. 9,500</div>
 <div class="grid grid-cols-2 gap-2">
-<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors">View Details</button>
-<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all">WhatsApp</button>
+<button class="border border-outline-variant text-on-surface py-2.5 rounded-lg text-label-sm font-label-sm font-semibold hover:bg-surface-container-high transition-colors text-sm sm:text-base">View Details</button>
+<button class="bg-primary text-on-primary py-2.5 rounded-lg text-label-sm font-label-sm font-semibold active:scale-[0.98] transition-all text-sm sm:text-base">WhatsApp</button>
 </div>
 </div>
 </div>
@@ -314,32 +314,32 @@
 </section>
 </div>
 <!-- Benefits Section -->
-<section class="py-section-gap">
-<div class="text-center mb-16">
-<h2 class="text-headline-lg font-headline-lg mb-4">Why Original Parts Matter?</h2>
-<p class="text-body-lg text-on-surface-variant max-w-2xl mx-auto">Ensuring your iPhone stays an iPhone. After-market parts can lead to software errors, battery drain, and thermal issues.</p>
+<section class="py-12 md:py-section-gap">
+<div class="text-center mb-10 md:mb-16">
+<h2 class="text-2xl sm:text-3xl md:text-headline-lg font-headline-lg mb-4">Why Original Parts Matter?</h2>
+<p class="text-base sm:text-body-lg text-on-surface-variant max-w-2xl mx-auto px-4">Ensuring your iPhone stays an iPhone. After-market parts can lead to software errors, battery drain, and thermal issues.</p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
-<div class="p-stack-lg border border-outline-variant rounded-xl bg-surface-container-low text-center">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<div class="p-6 md:p-stack-lg border border-outline-variant rounded-xl bg-surface-container-low text-center">
 <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
 <span class="material-symbols-outlined text-primary text-[32px]">bolt</span>
 </div>
-<h3 class="text-headline-md font-headline-md mb-3">Peak Performance</h3>
-<p class="text-body-md text-on-surface-variant">Original components are designed by Apple to meet strict power and thermal standards, preventing lag and overheating.</p>
+<h3 class="text-xl md:text-headline-md font-headline-md mb-3">Peak Performance</h3>
+<p class="text-sm md:text-body-md text-on-surface-variant">Original components are designed by Apple to meet strict power and thermal standards, preventing lag and overheating.</p>
 </div>
-<div class="p-stack-lg border border-outline-variant rounded-xl bg-surface-container-low text-center">
+<div class="p-6 md:p-stack-lg border border-outline-variant rounded-xl bg-surface-container-low text-center">
 <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
 <span class="material-symbols-outlined text-primary text-[32px]">verified</span>
 </div>
-<h3 class="text-headline-md font-headline-md mb-3">Longevity &amp; Health</h3>
-<p class="text-body-md text-on-surface-variant">Genuine parts prevent the "Important Component Message" and maintain your device's resale value and battery health.</p>
+<h3 class="text-xl md:text-headline-md font-headline-md mb-3">Longevity &amp; Health</h3>
+<p class="text-sm md:text-body-md text-on-surface-variant">Genuine parts prevent the "Important Component Message" and maintain your device's resale value and battery health.</p>
 </div>
-<div class="p-stack-lg border border-outline-variant rounded-xl bg-surface-container-low text-center">
+<div class="p-6 md:p-stack-lg border border-outline-variant rounded-xl bg-surface-container-low text-center sm:col-span-2 lg:col-span-1">
 <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
 <span class="material-symbols-outlined text-primary text-[32px]">security</span>
 </div>
-<h3 class="text-headline-md font-headline-md mb-3">Service Warranty</h3>
-<p class="text-body-md text-on-surface-variant">All our genuine parts come with a 6-month NexaAI warranty, giving you peace of mind with every installation.</p>
+<h3 class="text-xl md:text-headline-md font-headline-md mb-3">Service Warranty</h3>
+<p class="text-sm md:text-body-md text-on-surface-variant">All our genuine parts come with a 6-month NexaAI warranty, giving you peace of mind with every installation.</p>
 </div>
 </div>
 </section>
@@ -348,5 +348,4 @@
 <div id="footer"></div>
 <script src="js/components.js"></script>
 <script src="js/main.js"></script>
-  </script>
 </body></html>

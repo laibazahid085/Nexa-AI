@@ -1,289 +1,300 @@
 <!DOCTYPE html>
-
-<html class="light" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Services | NexaAI - Premium Apple Repair Center</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "surface-variant": "#e4e2e4",
-                    "surface-container-low": "#f6f3f5",
-                    "surface-container-highest": "#e4e2e4",
-                    "surface-container-high": "#eae7ea",
-                    "tertiary-fixed-dim": "#53e16f",
-                    "tertiary-container": "#008733",
-                    "outline": "#717786",
-                    "on-background": "#1b1b1d",
-                    "on-secondary-fixed": "#1a1c1d",
-                    "on-error": "#ffffff",
-                    "secondary-fixed": "#e2e2e4",
-                    "outline-variant": "#c1c6d7",
-                    "error": "#ba1a1a",
-                    "on-secondary-fixed-variant": "#454749",
-                    "on-tertiary-container": "#f7fff2",
-                    "surface-tint": "#005bc1",
-                    "tertiary": "#006b27",
-                    "surface-container": "#f0edef",
-                    "on-secondary-container": "#616365",
-                    "primary-fixed-dim": "#adc6ff",
-                    "on-primary-fixed": "#001a41",
-                    "on-primary-fixed-variant": "#004493",
-                    "inverse-primary": "#adc6ff",
-                    "surface": "#fcf8fb",
-                    "on-tertiary-fixed": "#002107",
-                    "primary-container": "#0070eb",
-                    "on-error-container": "#93000a",
-                    "surface-dim": "#dcd9dc",
-                    "surface-container-lowest": "#ffffff",
-                    "secondary-fixed-dim": "#c6c6c8",
-                    "secondary": "#5d5e60",
-                    "secondary-container": "#dfdfe1",
-                    "on-surface": "#1b1b1d",
-                    "primary-fixed": "#d8e2ff",
-                    "primary": "#0058bc",
-                    "on-primary": "#ffffff",
-                    "surface-bright": "#fcf8fb",
-                    "tertiary-fixed": "#72fe88",
-                    "error-container": "#ffdad6",
-                    "background": "#fcf8fb",
-                    "on-tertiary-fixed-variant": "#00531c",
-                    "on-tertiary": "#ffffff",
-                    "on-surface-variant": "#414755",
-                    "inverse-surface": "#303032",
-                    "on-secondary": "#ffffff",
-                    "on-primary-container": "#fefcff",
-                    "inverse-on-surface": "#f3f0f2"
+<html class="light" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Services | NexaAI - Premium Apple Repair Center</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-variant": "#e4e2e4",
+                        "surface-container-low": "#f6f3f5",
+                        "surface-container-highest": "#e4e2e4",
+                        "surface-container-high": "#eae7ea",
+                        "tertiary-fixed-dim": "#53e16f",
+                        "tertiary-container": "#008733",
+                        "outline": "#717786",
+                        "on-background": "#1b1b1d",
+                        "on-secondary-fixed": "#1a1c1d",
+                        "on-error": "#ffffff",
+                        "secondary-fixed": "#e2e2e4",
+                        "outline-variant": "#c1c6d7",
+                        "error": "#ba1a1a",
+                        "on-secondary-fixed-variant": "#454749",
+                        "on-tertiary-container": "#f7fff2",
+                        "surface-tint": "#005bc1",
+                        "tertiary": "#006b27",
+                        "surface-container": "#f0edef",
+                        "on-secondary-container": "#616365",
+                        "primary-fixed-dim": "#adc6ff",
+                        "on-primary-fixed": "#001a41",
+                        "on-primary-fixed-variant": "#004493",
+                        "inverse-primary": "#adc6ff",
+                        "surface": "#fcf8fb",
+                        "on-tertiary-fixed": "#002107",
+                        "primary-container": "#0070eb",
+                        "on-error-container": "#93000a",
+                        "surface-dim": "#dcd9dc",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-fixed-dim": "#c6c6c8",
+                        "secondary": "#5d5e60",
+                        "secondary-container": "#dfdfe1",
+                        "on-surface": "#1b1b1d",
+                        "primary-fixed": "#d8e2ff",
+                        "primary": "#0058bc",
+                        "on-primary": "#ffffff",
+                        "surface-bright": "#fcf8fb",
+                        "tertiary-fixed": "#72fe88",
+                        "error-container": "#ffdad6",
+                        "background": "#fcf8fb",
+                        "on-tertiary-fixed-variant": "#00531c",
+                        "on-tertiary": "#ffffff",
+                        "on-surface-variant": "#414755",
+                        "inverse-surface": "#303032",
+                        "on-secondary": "#ffffff",
+                        "on-primary-container": "#fefcff",
+                        "inverse-on-surface": "#f3f0f2"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-md": "16px",
+                        "margin-mobile": "20px",
+                        "margin-desktop": "64px",
+                        "container-max": "1280px",
+                        "gutter": "24px",
+                        "stack-sm": "8px",
+                        "section-gap": "80px",
+                        "stack-lg": "24px"
+                    },
+                    "fontFamily": {
+                        "label-md": ["Inter"],
+                        "display-lg": ["Plus Jakarta Sans"],
+                        "body-sm": ["Inter"],
+                        "headline-lg": ["Plus Jakarta Sans"],
+                        "label-sm": ["Inter"],
+                        "headline-md": ["Plus Jakarta Sans"],
+                        "body-lg": ["Inter"],
+                        "body-md": ["Inter"],
+                        "headline-lg-mobile": ["Plus Jakarta Sans"]
+                    },
+                    "fontSize": {
+                        "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "label-sm": ["12px", {"lineHeight": "1", "fontWeight": "500"}],
+                        "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}]
+                    }
+                },
             },
-            "borderRadius": {
-                    "DEFAULT": "0.25rem",
-                    "lg": "0.5rem",
-                    "xl": "0.75rem",
-                    "full": "9999px"
-            },
-            "spacing": {
-                    "stack-md": "16px",
-                    "margin-mobile": "20px",
-                    "margin-desktop": "64px",
-                    "container-max": "1280px",
-                    "gutter": "24px",
-                    "stack-sm": "8px",
-                    "section-gap": "80px",
-                    "stack-lg": "24px"
-            },
-            "fontFamily": {
-                    "label-md": ["Inter"],
-                    "display-lg": ["Plus Jakarta Sans"],
-                    "body-sm": ["Inter"],
-                    "headline-lg": ["Plus Jakarta Sans"],
-                    "label-sm": ["Inter"],
-                    "headline-md": ["Plus Jakarta Sans"],
-                    "body-lg": ["Inter"],
-                    "body-md": ["Inter"],
-                    "headline-lg-mobile": ["Plus Jakarta Sans"]
-            },
-            "fontSize": {
-                    "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
-                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
-                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
-                    "label-sm": ["12px", {"lineHeight": "1", "fontWeight": "500"}],
-                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
-                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
-                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
-                    "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}]
-            }
-          },
-        },
-      }
+        }
     </script>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="font-body-md text-on-surface services" style="padding-top: 88px;">
+<body class="font-body-md text-on-surface bg-surface" style="padding-top: 88px;">
+
 <!-- Top Navigation Bar -->
 <div id="navbar"></div>
-<!-- Hero Section -->
-<header class="relative overflow-hidden pt-20 pb-24 px-margin-desktop max-w-container-max mx-auto text-center lg:text-left grid lg:grid-cols-2 gap-12 items-center">
-<div class="z-10">
-<span class="text-primary font-label-md text-label-md tracking-wider mb-4 block uppercase">Precision Engineering</span>
-<h1 class="font-display-lg text-display-lg text-on-surface mb-6 leading-tight">Expert iPhone <br/>Repair Services</h1>
-<p class="text-body-lg text-on-surface-variant mb-10 max-w-xl">Restore your device to its original factory standards with our laboratory-grade repair facility. We combine certified technical expertise with genuine components to deliver uncompromising quality for every repair.</p>
-<div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-<a href="repair_booking.html"
-   class="inline-block bg-primary text-on-primary px-8 py-4 rounded-lg font-label-md text-label-md shadow-sm hover:bg-primary-container transition-all">
-    Book a Repair
-</a>
-<button class="border border-outline-variant text-on-surface px-8 py-4 rounded-lg font-label-md text-label-md hover:bg-surface-container-low transition-all">Check Warranty</button>
-</div>
-</div>
-<div class="relative flex justify-center items-center">
-<div class="absolute inset-0 bg-primary/5 rounded-full blur-3xl"></div>
-<div class="relative w-full aspect-square max-w-md bg-white rounded-xl border border-outline-variant shadow-sm overflow-hidden flex items-center justify-center p-8">
-<img class="w-full h-full object-contain" data-alt="A macro studio photograph of a disassembled high-end smartphone on a clean white technical workbench. The internal components like the motherboard, battery, and camera module are laid out with surgical precision. The lighting is bright and clinical, emphasizing a professional repair environment. Soft blue and silver tones dominate the image to reflect a high-tech corporate modern aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6faxNk8gpRKVAtF2m4RiEA-AmVcZeuQiidlbLJPh-O-lcaBdOerd_IWPEtdjKSkinwxGOKIXEP5rwxU7F6nXRXRkx5y36sift3u7-wEmmDZmXGnASZuSv9bpu3uWCshOvbGabaTAV93NcoHKIUsbkIq0x8aPEuGSjNSwPkIebREuS4fKyPYv3mDxfY8dNuRFkxbXy4asBulmqWroeFPyPiJy4PCy6oMI-k9frpERDp5jksWWLICkMCw"/>
-</div>
-</div>
-</header>
-<!-- Services Grid -->
-<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto">
-<div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-<div class="max-w-2xl">
-<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Our Technical Expertise</h2>
-<p class="text-body-md text-on-surface-variant">From simple battery swaps to complex logic board microsoldering, our technicians handle every device with clinical precision.</p>
-</div>
-<div class="flex gap-2">
-<div class="px-4 py-2 bg-surface-container border border-outline-variant rounded-full text-label-sm font-label-sm flex items-center gap-2">
-<span class="w-2 h-2 rounded-full bg-tertiary"></span> Available Now
+
+<main>
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden pt-12 pb-20 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto text-center lg:text-left grid lg:grid-cols-2 gap-12 items-center">
+        <div class="z-10">
+            <span class="text-primary font-label-md text-label-md tracking-wider mb-4 block uppercase">Precision Engineering</span>
+            <h1 class="font-display-lg text-display-lg text-on-surface mb-6 leading-tight">Expert iPhone <br class="hidden lg:block"/>Repair Services</h1>
+            <p class="text-body-lg text-on-surface-variant mb-10 max-w-xl mx-auto lg:mx-0">Restore your device to its original factory standards with our laboratory-grade repair facility. We combine certified technical expertise with genuine components to deliver uncompromising quality for every repair.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <a href="repair_booking.html" class="inline-block text-center bg-primary text-on-primary px-8 py-4 rounded-lg font-label-md text-label-md shadow-sm hover:bg-primary-container transition-all">
+                    Book a Repair
+                </a>
+                <button class="border border-outline-variant text-on-surface px-8 py-4 rounded-lg font-label-md text-label-md hover:bg-surface-container-low transition-all">Check Warranty</button>
+            </div>
+        </div>
+        <div class="relative flex justify-center items-center">
+            <div class="absolute inset-0 bg-primary/5 rounded-full blur-3xl"></div>
+            <div class="relative w-full aspect-square max-w-md bg-surface-container-lowest rounded-xl border border-outline-variant shadow-sm overflow-hidden flex items-center justify-center p-8">
+                <img class="w-full h-full object-contain" data-alt="A macro studio photograph of a disassembled high-end smartphone on a clean white technical workbench." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6faxNk8gpRKVAtF2m4RiEA-AmVcZeuQiidlbLJPh-O-lcaBdOerd_IWPEtdjKSkinwxGOKIXEP5rwxU7F6nXRXRkx5y36sift3u7-wEmmDZmXGnASZuSv9bpu3uWCshOvbGabaTAV93NcoHKIUsbkIq0x8aPEuGSjNSwPkIebREuS4fKyPYv3mDxfY8dNuRFkxbXy4asBulmqWroeFPyPiJy4PCy6oMI-k9frpERDp5jksWWLICkMCw"/>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Grid -->
+    <section class="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12 gap-6">
+            <div class="max-w-2xl">
+                <h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">Our Technical Expertise</h2>
+                <p class="text-body-md text-on-surface-variant">From simple battery swaps to complex logic board microsoldering, our technicians handle every device with clinical precision.</p>
+            </div>
+            <div class="flex gap-2">
+                <div class="px-4 py-2 bg-surface-container border border-outline-variant rounded-full text-label-sm font-label-sm flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-tertiary"></span> Available Now
                 </div>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
-<!-- Service 1 -->
-<div class="bg-white p-stack-lg border border-outline-variant rounded-xl service-card-hover transition-all duration-300 flex flex-col">
-<div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-primary text-2xl">smartphone</span>
-</div>
-<h3 class="font-headline-md text-headline-md text-on-surface mb-3">Screen Replacement</h3>
-<p class="text-body-sm text-on-surface-variant mb-8 flex-grow">OEM-grade display replacements with True Tone restoration and calibrated touch sensitivity. Backed by our standard warranty.</p>
-<div class="flex items-center justify-between pt-6 border-t border-outline-variant">
-<span class="text-label-md font-label-md text-primary">From $129</span>
-<a href="repair_booking.html"
-   class="inline-block text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">
-    Book Now
-</a>
-</div>
-</div>
-<!-- Service 2 -->
-<div class="bg-white p-stack-lg border border-outline-variant rounded-xl service-card-hover transition-all duration-300 flex flex-col">
-<div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-primary text-2xl">battery_full</span>
-</div>
-<h3 class="font-headline-md text-headline-md text-on-surface mb-3">Battery Replacement</h3>
-<p class="text-body-sm text-on-surface-variant mb-8 flex-grow">Restore your device's endurance with certified high-capacity cells. Includes health optimization and safety testing.</p>
-<div class="flex items-center justify-between pt-6 border-t border-outline-variant">
-<span class="text-label-md font-label-md text-primary">From $69</span>
-<a href="repair_booking.html"
-   class="inline-block text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">
-    Book Now
-</a>
-</div>
-</div>
-<!-- Service 3 -->
-<div class="bg-white p-stack-lg border border-outline-variant rounded-xl service-card-hover transition-all duration-300 flex flex-col">
-<div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-primary text-2xl">texture</span>
-</div>
-<h3 class="font-headline-md text-headline-md text-on-surface mb-3">Back Glass Repair</h3>
-<p class="text-body-sm text-on-surface-variant mb-8 flex-grow">Precision laser-assisted removal and seamless back glass installation to maintain your iPhone's premium aesthetic.</p>
-<div class="flex items-center justify-between pt-6 border-t border-outline-variant">
-<span class="text-label-md font-label-md text-primary">From $99</span>
-<a href="repair_booking.html"
-   class="inline-block text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">
-    Book Now
-</a>
-</div>
-</div>
-<!-- Service 4 -->
-<div class="bg-white p-stack-lg border border-outline-variant rounded-xl service-card-hover transition-all duration-300 flex flex-col">
-<div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-primary text-2xl">bolt</span>
-</div>
-<h3 class="font-headline-md text-headline-md text-on-surface mb-3">Charging Port Repair</h3>
-<p class="text-body-sm text-on-surface-variant mb-8 flex-grow">Diagnostic and replacement services for faulty lightning or USB-C ports, ensuring consistent power delivery.</p>
-<div class="flex items-center justify-between pt-6 border-t border-outline-variant">
-<span class="text-label-md font-label-md text-primary">From $79</span>
-<button class="text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">Inquire</button>
-</div>
-</div>
-<!-- Service 5 -->
-<div class="bg-white p-stack-lg border border-outline-variant rounded-xl service-card-hover transition-all duration-300 flex flex-col">
-<div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-primary text-2xl">photo_camera</span>
-</div>
-<h3 class="font-headline-md text-headline-md text-on-surface mb-3">Camera Repair</h3>
-<p class="text-body-sm text-on-surface-variant mb-8 flex-grow">Focus calibration and lens replacement for front and rear modules. Restoring crystal clear imaging performance.</p>
-<div class="flex items-center justify-between pt-6 border-t border-outline-variant">
-<span class="text-label-md font-label-md text-primary">From $119</span>
-<button class="text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">Inquire</button>
-</div>
-</div>
-<!-- Service 6 -->
-<div class="bg-white p-stack-lg border border-outline-variant rounded-xl service-card-hover transition-all duration-300 flex flex-col">
-<div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-primary text-2xl">memory</span>
-</div>
-<h3 class="font-headline-md text-headline-md text-on-surface mb-3">Motherboard Repair</h3>
-<p class="text-body-sm text-on-surface-variant mb-8 flex-grow">Advanced microsoldering for complex issues including water damage, IC failure, and data recovery services.</p>
-<div class="flex items-center justify-between pt-6 border-t border-outline-variant">
-<span class="text-label-md font-label-md text-primary">Contact Us</span>
-<a href="contact_us.html" class="text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">Contact Pro</a href="contact_us.html">
-</div>
-</div>
-</div>
-</section>
-<!-- Why Choose Us -->
-<section class="bg-surface-container-low py-section-gap">
-<div class="px-margin-desktop max-w-container-max mx-auto">
-<div class="text-center mb-16">
-<h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">The NexaAI Advantage</h2>
-<p class="text-body-md text-on-surface-variant max-w-2xl mx-auto">We set the gold standard for repair excellence, ensuring every device receives professional treatment.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-<div class="text-center">
-<div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm border border-outline-variant">
-<span class="material-symbols-outlined text-primary text-3xl">schedule</span>
-</div>
-<h4 class="font-headline-md text-headline-md mb-2">Same Day Repair</h4>
-<p class="text-body-sm text-on-surface-variant">90% of screen and battery repairs are completed within 60 minutes in our express lab.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm border border-outline-variant">
-<span class="material-symbols-outlined text-primary text-3xl">verified</span>
-</div>
-<h4 class="font-headline-md text-headline-md mb-2">90-Day Warranty</h4>
-<p class="text-body-sm text-on-surface-variant">Peace of mind guaranteed. We stand behind our work with a comprehensive 3-month parts and labor warranty.</p>
-</div>
-<div class="text-center">
-<div class="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm border border-outline-variant">
-<span class="material-symbols-outlined text-primary text-3xl">engineering</span>
-</div>
-<h4 class="font-headline-md text-headline-md mb-2">Certified Techs</h4>
-<p class="text-body-sm text-on-surface-variant">All repairs are handled by Apple-certified technicians following strict ESD-safe protocols.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- CTA Section -->
-<section class="py-24 px-margin-desktop">
-<div class="max-w-container-max mx-auto">
-<div class="bg-primary rounded-2xl overflow-hidden relative p-12 md:p-20 text-center text-on-primary">
-<!-- Atmospheric background element -->
-<div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
-<div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
-<div class="relative z-10">
-<h2 class="font-headline-lg text-display-lg mb-6">Ready to restore your device?</h2>
-<p class="text-body-lg text-primary-fixed-dim mb-10 max-w-2xl mx-auto">Schedule your repair appointment online and skip the queue. Experience the professional difference at NexaAI.</p>
-<div class="flex flex-col sm:flex-row gap-4 justify-center">
-<button class="bg-white text-primary px-10 py-5 rounded-lg font-label-md text-label-md shadow-lg hover:bg-surface-container transition-all active:scale-95">Book Repair Appointment</button>
-<button class="border border-white/30 text-white px-10 py-5 rounded-lg font-label-md text-label-md hover:bg-white/10 transition-all">Track a Repair</button>
-</div>
-<div class="mt-8 flex items-center justify-center gap-6 text-label-sm font-label-sm opacity-80">
-<div class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">check_circle</span> No Fix, No Fee</div>
-<div class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">check_circle</span> Instant Quotes</div>
-</div>
-</div>
-</div>
-</div>
-</section>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+            <!-- Service 1 -->
+            <div class="bg-surface-container-lowest p-stack-lg border border-outline-variant rounded-xl hover:shadow-md transition-all duration-300 flex flex-col">
+                <div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
+                    <span class="material-symbols-outlined text-primary text-2xl">smartphone</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface mb-3">Screen Replacement</h3>
+                <p class="text-body-sm text-on-surface-variant mb-8 flex-grow">OEM-grade display replacements with True Tone restoration and calibrated touch sensitivity. Backed by our standard warranty.</p>
+                <div class="flex items-center justify-between pt-6 border-t border-outline-variant">
+                    <span class="text-label-md font-label-md text-primary">From $129</span>
+                    <a href="repair_booking.html" class="inline-block text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="bg-surface-container-lowest p-stack-lg border border-outline-variant rounded-xl hover:shadow-md transition-all duration-300 flex flex-col">
+                <div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
+                    <span class="material-symbols-outlined text-primary text-2xl">battery_full</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface mb-3">Battery Replacement</h3>
+                <p class="text-body-sm text-on-surface-variant mb-8 flex-grow">Restore your device's endurance with certified high-capacity cells. Includes health optimization and safety testing.</p>
+                <div class="flex items-center justify-between pt-6 border-t border-outline-variant">
+                    <span class="text-label-md font-label-md text-primary">From $69</span>
+                    <a href="repair_booking.html" class="inline-block text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="bg-surface-container-lowest p-stack-lg border border-outline-variant rounded-xl hover:shadow-md transition-all duration-300 flex flex-col">
+                <div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
+                    <span class="material-symbols-outlined text-primary text-2xl">texture</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface mb-3">Back Glass Repair</h3>
+                <p class="text-body-sm text-on-surface-variant mb-8 flex-grow">Precision laser-assisted removal and seamless back glass installation to maintain your iPhone's premium aesthetic.</p>
+                <div class="flex items-center justify-between pt-6 border-t border-outline-variant">
+                    <span class="text-label-md font-label-md text-primary">From $99</span>
+                    <a href="repair_booking.html" class="inline-block text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">
+                        Book Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="bg-surface-container-lowest p-stack-lg border border-outline-variant rounded-xl hover:shadow-md transition-all duration-300 flex flex-col">
+                <div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
+                    <span class="material-symbols-outlined text-primary text-2xl">bolt</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface mb-3">Charging Port Repair</h3>
+                <p class="text-body-sm text-on-surface-variant mb-8 flex-grow">Diagnostic and replacement services for faulty lightning or USB-C ports, ensuring consistent power delivery.</p>
+                <div class="flex items-center justify-between pt-6 border-t border-outline-variant">
+                    <span class="text-label-md font-label-md text-primary">From $79</span>
+                    <button class="text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">Inquire</button>
+                </div>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="bg-surface-container-lowest p-stack-lg border border-outline-variant rounded-xl hover:shadow-md transition-all duration-300 flex flex-col">
+                <div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
+                    <span class="material-symbols-outlined text-primary text-2xl">photo_camera</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface mb-3">Camera Repair</h3>
+                <p class="text-body-sm text-on-surface-variant mb-8 flex-grow">Focus calibration and lens replacement for front and rear modules. Restoring crystal clear imaging performance.</p>
+                <div class="flex items-center justify-between pt-6 border-t border-outline-variant">
+                    <span class="text-label-md font-label-md text-primary">From $119</span>
+                    <button class="text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">Inquire</button>
+                </div>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="bg-surface-container-lowest p-stack-lg border border-outline-variant rounded-xl hover:shadow-md transition-all duration-300 flex flex-col">
+                <div class="w-12 h-12 bg-surface-container rounded-lg flex items-center justify-center mb-6">
+                    <span class="material-symbols-outlined text-primary text-2xl">memory</span>
+                </div>
+                <h3 class="font-headline-md text-headline-md text-on-surface mb-3">Motherboard Repair</h3>
+                <p class="text-body-sm text-on-surface-variant mb-8 flex-grow">Advanced microsoldering for complex issues including water damage, IC failure, and data recovery services.</p>
+                <div class="flex items-center justify-between pt-6 border-t border-outline-variant">
+                    <span class="text-label-md font-label-md text-primary">Contact Us</span>
+                    <a href="contact_us.html" class="text-label-sm font-label-sm bg-primary text-on-primary px-4 py-2 rounded-lg hover:bg-primary-container transition-colors">Contact Pro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="bg-surface-container-low py-section-gap">
+        <div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">The NexaAI Advantage</h2>
+                <p class="text-body-md text-on-surface-variant max-w-2xl mx-auto">We set the gold standard for repair excellence, ensuring every device receives professional treatment.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-surface-container-lowest rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm border border-outline-variant">
+                        <span class="material-symbols-outlined text-primary text-3xl">schedule</span>
+                    </div>
+                    <h4 class="font-headline-md text-headline-md mb-2">Same Day Repair</h4>
+                    <p class="text-body-sm text-on-surface-variant">90% of screen and battery repairs are completed within 60 minutes in our express lab.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-surface-container-lowest rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm border border-outline-variant">
+                        <span class="material-symbols-outlined text-primary text-3xl">verified</span>
+                    </div>
+                    <h4 class="font-headline-md text-headline-md mb-2">90-Day Warranty</h4>
+                    <p class="text-body-sm text-on-surface-variant">Peace of mind guaranteed. We stand behind our work with a comprehensive 3-month parts and labor warranty.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-surface-container-lowest rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm border border-outline-variant">
+                        <span class="material-symbols-outlined text-primary text-3xl">engineering</span>
+                    </div>
+                    <h4 class="font-headline-md text-headline-md mb-2">Certified Techs</h4>
+                    <p class="text-body-sm text-on-surface-variant">All repairs are handled by Apple-certified technicians following strict ESD-safe protocols.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 px-margin-mobile md:px-margin-desktop">
+        <div class="max-w-container-max mx-auto">
+            <div class="bg-primary rounded-2xl overflow-hidden relative p-8 md:p-20 text-center text-on-primary">
+                <!-- Atmospheric background element -->
+                <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
+                <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
+                <div class="relative z-10">
+                    <h2 class="font-headline-lg text-[32px] md:text-[48px] mb-6">Ready to restore your device?</h2>
+                    <p class="text-body-lg text-primary-fixed-dim mb-10 max-w-2xl mx-auto">Schedule your repair appointment online and skip the queue. Experience the professional difference at NexaAI.</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                        <button class="w-full sm:w-auto bg-white text-primary px-10 py-5 rounded-lg font-label-md text-label-md shadow-lg hover:bg-surface-container transition-all active:scale-95">Book Repair Appointment</button>
+                        <button class="w-full sm:w-auto border border-white/30 text-white px-10 py-5 rounded-lg font-label-md text-label-md hover:bg-white/10 transition-all">Track a Repair</button>
+                    </div>
+                    <div class="mt-8 flex flex-wrap items-center justify-center gap-6 text-label-sm font-label-sm opacity-80">
+                        <div class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">check_circle</span> No Fix, No Fee</div>
+                        <div class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">check_circle</span> Instant Quotes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
 <!-- Footer -->
 <div id="footer"></div>
+
 <script src="js/components.js"></script>
 <script src="js/main.js"></script>
-</body></html>
+</body>
+</html>

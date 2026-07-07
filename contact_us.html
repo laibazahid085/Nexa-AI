@@ -6,9 +6,8 @@
 <title>Contact Us | NexaAI - Premium Apple Retail &amp; Repair</title>
 <!-- Tailwind CSS -->
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 <!-- Google Fonts -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
 <!-- Material Symbols -->
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -109,9 +108,21 @@
         },
       }
     </script>
-<link rel="stylesheet" href="style.css">
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #fcf8fb;
+            font-family: 'Inter', sans-serif;
+            color: #1b1b1d;
+        }
+        .pro-shadow {
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+        }
+    </style>
 </head>
-<body class="flex flex-col min-h-screen">
+<body class="flex flex-col min-h-screen contact">
 <!-- TopNavBar Component -->
 <div id="navbar"></div>
 <main class="flex-grow">
@@ -236,7 +247,7 @@
 </section>
 <!-- Map Section -->
 <section class="w-full h-[500px] relative overflow-hidden bg-surface-container">
-<div class="w-full h-full opacity-80 filter grayscale" data-location="New York" style="">
+<div class="w-full h-full opacity-80 filter grayscale" data-location="New York">
 <!-- Data-location element handled by system for real map -->
 <div class="flex items-center justify-center w-full h-full text-outline-variant italic">
                     Loading interactive map...
