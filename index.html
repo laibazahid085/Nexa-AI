@@ -1,322 +1,390 @@
 <!DOCTYPE html>
+<html class="light" lang="en">
 
-<html lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>NexaAI - Premium iPhone Store & Professional Repair Center</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>NexaAI | Premium iPhone Store & Professional Repair</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style data-purpose="typography">
-    body {
-      font-family: 'Inter', sans-serif;
-    }
-  </style>
-<style data-purpose="custom-utilities">
-    .blue-accent { color: #0066FF; }
-    .bg-blue-accent { background-color: #0066FF; }
-    .border-blue-accent { border-color: #0066FF; }
-    .hover-bg-blue-accent:hover { background-color: #0052cc; }
-    .card-shadow { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); }
-  </style>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0058bc",
+                        "primary-hover": "#00479b",
+                        "primary-light": "#eef4ff",
+                        "surface": "#ffffff",
+                        "background": "#fcf8fb",
+                        "slate-custom": "#1e293b",
+                    },
+                    fontFamily: {
+                        sans: ["Inter", "sans-serif"],
+                        display: ["Plus Jakarta Sans", "sans-serif"],
+                    }
+                },
+            },
+        }
+    </script>
 </head>
-<body class="bg-white text-slate-900 overflow-x-hidden">
-<div id="navbar"></div>
-<main class="overflow-x-hidden">
-<section class="pt-10 md:pt-24 relative bg-[#F8F9FA] overflow-hidden bg-[url('./images/hero-img.png')] bg-cover bg-center md:bg-right lg:bg-center bg-no-repeat" data-purpose="hero">
-  
-  <div class="absolute inset-0 bg-white/80 sm:bg-white/20 pointer-events-none z-0"></div>
 
-  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 lg:py-32 flex flex-col lg:flex-row items-center">
-    <div class="w-full lg:w-1/2 z-10 text-center lg:text-left">
-      <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold text-slate-900 leading-tight mb-6 break-words">
-        Premium iPhone Store &<br class="hidden sm:inline"/>Professional Repair Center
-      </h1>
-      <p class="text-lg sm:text-xl text-slate-600 mb-8 sm:mb-10 max-w-lg mx-auto lg:mx-0">
-        Buy, Sell, Repair & Genuine Original Apple Parts.
-      </p>
-      
-      <div class="flex flex-col sm:flex-row flex-wrap gap-4 justify-center lg:justify-start items-stretch sm:items-center">
-        <a class="bg-blue-accent text-white px-6 sm:px-8 py-3 rounded-md font-semibold hover-bg-blue-accent text-center" href="collection.html">View Collection</a>
-        <a class="bg-white border border-gray-300 text-slate-900 px-6 sm:px-8 py-3 rounded-md font-semibold hover:bg-gray-50 text-center" href="repair_booking.html">Book Repair</a>
-        <a class="bg-black text-white px-6 sm:px-8 py-3 rounded-md font-semibold hover:bg-zinc-800 text-center" href="#">WhatsApp Inquiry</a>
-      </div>
-      
-      <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 text-xs font-medium text-slate-500 uppercase tracking-wider text-left">
-        <div class="flex items-center gap-2"><svg class="w-5 h-5 text-blue-500 shrink-0" fill="currentColor" viewbox="0 0 20 20"><path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path><path clip-rule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h.01a1 1 0 100-2H10zm3 0a1 1 0 000 2h.01a1 1 0 100-2H13zM7 13a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h.01a1 1 0 100-2H10zm3 0a1 1 0 000 2h.01a1 1 0 100-2H13z" fill-rule="evenodd"></path></svg> Original Apple Parts</div>
-        <div class="flex items-center gap-2"><svg class="w-5 h-5 text-blue-500" fill="currentColor" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" fill-rule="evenodd"></path></svg> Professional Tools</div>
-        <div class="flex items-center gap-2"><svg class="w-5 h-5 text-blue-500" fill="currentColor" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" fill-rule="evenodd"></path></svg> Certified Technicians</div>
-      </div>
+<body class="bg-background text-slate-custom font-sans antialiased overflow-x-hidden">
+    <div id="navbar"></div>
+
+    <main class="w-full pt-11">
+        <!-- Hero Section -->
+       <!-- Hero Section -->
+<section class="relative min-h-[85vh] flex items-center pt-28 pb-16 overflow-hidden bg-slate-900 text-white">
+    <!-- Background Image with precise mobile-to-desktop alignment -->
+    <div class="absolute inset-0 z-0 opacity-40 sm:opacity-100 mix-blend-lighten sm:mix-blend-normal">
+        <img src="./images/hero-img.png" alt="Hero Background" class="w-full h-full object-cover object-right-bottom sm:object-right lg:object-right" onerror="this.style.display='none'">
     </div>
-  </div>
-</section>
-<section class="py-12 sm:py-20 bg-white" data-purpose="collection-preview">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-10 gap-4">
-<div>
-<h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">iPhone Collection</h2>
-<p class="text-slate-500">Explore our wide range of iPhones.</p>
-</div>
-<a class="text-slate-900 font-semibold border-b-2 border-slate-900 pb-1 hover:text-blue-accent hover:border-blue-accent transition-colors self-start sm:self-auto" href="collection.html">View All</a>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:grid-cols-4 lg:gap-8">
-<div class="bg-gray-50 rounded-2xl p-6 transition-transform hover:-translate-y-1 flex flex-col justify-between" data-purpose="product-card">
-<div>
-<div class="relative mb-6 aspect-square flex items-center justify-center">
-<img alt="iPhone 15 Pro Max" class="object-contain max-h-48 w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChfuKUdkfEv0adUVNlcUzJIkv_l5BTVgaN2QveMVItekhlanz40Pf3TMLi5vAKJPl7ylPmZH9vtcWG2T5rT6-rUVaCIDceNj3jxKJG5DU_S3GT3eNS6zB4B3f_wyVnt2vw6l7BmgMqFwuLStPJY7cRamGwNP0xXisDKF-GHvEXoRjW-EzHjP63Awo_YipK0tV-du8TO8SSd-Bt_2LFIqSkpYnmmfwW9s0osv2ZKO5DOqBSPvHOazGjAA"/>
-</div>
-<h3 class="text-lg font-bold mb-1">iPhone 15 Pro Max</h3>
-<p class="text-xs text-slate-400 mb-4">128GB | 256GB | 512GB | 1TB</p>
-<div class="flex flex-wrap gap-2 mb-6">
-<span class="px-2 py-1 bg-green-100 text-green-700 text-[10px] font-bold rounded">PTA Approved</span>
-<span class="px-2 py-1 bg-blue-100 text-blue-700 text-[10px] font-bold rounded">Excellent Condition</span>
-</div>
-</div>
-<div class="flex flex-col xl:flex-row gap-2 mt-auto">
-<button class="w-full xl:flex-1 text-xs font-bold border border-gray-200 py-2 rounded hover:bg-gray-100 transition-colors">View Details</button>
-<button class="w-full xl:flex-1 text-xs font-bold bg-blue-accent text-white py-2 rounded hover-bg-blue-accent transition-colors">WhatsApp Inquiry</button>
-</div>
-</div>
-<div class="bg-gray-50 rounded-2xl p-6 transition-transform hover:-translate-y-1 flex flex-col justify-between">
-<div>
-<div class="relative mb-6 aspect-square flex items-center justify-center">
-<img alt="iPhone 15 Pro" class="object-contain max-h-48 w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZTdnHysvCqy_7q3fF2iiwgeRnw0pyW3yq0kZOkSgEy_8xDy6mkzpDo7M4o-vG8cFs-1oS-e_kQM4tpcYAUBaR5O8CL-rIa7rL8o4IgPdMD354aaVcHTXndc9DvoXfbaNVxPvm79RbtHqW5ZlDJon5LfnugjX1gPt0kA7gi1ncpAsdflMFQyFEpQd2DGyfE_g738kl2H68jKsgSdZvaCNg0dyYv_eK3L1CIVdFwIOghaj22HleVQM40g"/>
-</div>
-<h3 class="text-lg font-bold mb-1">iPhone 15 Pro</h3>
-<p class="text-xs text-slate-400 mb-4">128GB | 256GB | 512GB | 1TB</p>
-<div class="flex flex-wrap gap-2 mb-6">
-<span class="px-2 py-1 bg-green-100 text-green-700 text-[10px] font-bold rounded">PTA Approved</span>
-<span class="px-2 py-1 bg-blue-100 text-blue-700 text-[10px] font-bold rounded">Excellent Condition</span>
-</div>
-</div>
-<div class="flex flex-col xl:flex-row gap-2 mt-auto">
-<button class="w-full xl:flex-1 text-xs font-bold border border-gray-200 py-2 rounded hover:bg-gray-100 transition-colors">View Details</button>
-<button class="w-full xl:flex-1 text-xs font-bold bg-blue-accent text-white py-2 rounded hover-bg-blue-accent transition-colors">WhatsApp Inquiry</button>
-</div>
-</div>
-<div class="bg-gray-50 rounded-2xl p-6 transition-transform hover:-translate-y-1 flex flex-col justify-between">
-<div>
-<div class="relative mb-6 aspect-square flex items-center justify-center">
-<img alt="iPhone 14 Pro Max" class="object-contain max-h-48 w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUORKhSn2s8tVAAbfC_WaRQ-YPRYM3_ErciEOsqN6af5-gPjvGs87LHVsCHyCyMbykwsplAHV-RIvRqBdgnTtl8TG4tT_i1nyEDzakIhpWIk4rcYAGnLowWyV6cLbpNYSjunqh8D8vSJArsMzkPhCir0PUo4IDLR1Htkouk5pz70x_-Y20IVoSb9g2ybIhRE51U1Uv5XEOVZKIkGpl4UD8_oWlfTbr6iGP_5Ajz99SdgI1IWh2YPqScQ"/>
-</div>
-<h3 class="text-lg font-bold mb-1">iPhone 14 Pro Max</h3>
-<p class="text-xs text-slate-400 mb-4">128GB | 256GB | 512GB | 1TB</p>
-<div class="flex flex-wrap gap-2 mb-6">
-<span class="px-2 py-1 bg-green-100 text-green-700 text-[10px] font-bold rounded">PTA Approved</span>
-<span class="px-2 py-1 bg-blue-100 text-blue-700 text-[10px] font-bold rounded">Excellent Condition</span>
-</div>
-</div>
-<div class="flex flex-col xl:flex-row gap-2 mt-auto">
-<button class="w-full xl:flex-1 text-xs font-bold border border-gray-200 py-2 rounded hover:bg-gray-100 transition-colors">View Details</button>
-<button class="w-full xl:flex-1 text-xs font-bold bg-blue-accent text-white py-2 rounded hover-bg-blue-accent transition-colors">WhatsApp Inquiry</button>
-</div>
-</div>
-<div class="bg-gray-50 rounded-2xl p-6 transition-transform hover:-translate-y-1 flex flex-col justify-between">
-<div>
-<div class="relative mb-6 aspect-square flex items-center justify-center">
-<img alt="iPhone 14 Pro" class="object-contain max-h-48 w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDew_xNTWTD3ComwE-d6TfWVfBpo1iT8iDyzj3fQZ_fWU96ZSUkvyFhdqbpbFbE_RR13aLSU5aLf6uIqRQMtysKOH46aD9ZeQVUCEk2utwC2lLku3S3lnu2FhIyq5stNM1RzWI4OJ4KQrWMD2Nu7ZeOKJYcivRd-t3fag1oqy4MRbK8wc9-FOpDty6dqZAHTKfcQDp0jIGvvdI1eVQbRw2ciLuttz8ybJXVUGi6p_UTjLn7-SUgufTJCw"/>
-</div>
-<h3 class="text-lg font-bold mb-1">iPhone 14 Pro</h3>
-<p class="text-xs text-slate-400 mb-4">128GB | 256GB | 512GB | 1TB</p>
-<div class="flex flex-wrap gap-2 mb-6">
-<span class="px-2 py-1 bg-green-100 text-green-700 text-[10px] font-bold rounded">PTA Approved</span>
-<span class="px-2 py-1 bg-blue-100 text-blue-700 text-[10px] font-bold rounded">Excellent Condition</span>
-</div>
-</div>
-<div class="flex flex-col xl:flex-row gap-2 mt-auto">
-<button class="w-full xl:flex-1 text-xs font-bold border border-gray-200 py-2 rounded hover:bg-gray-100 transition-colors">View Details</button>
-<button class="w-full xl:flex-1 text-xs font-bold bg-blue-accent text-white py-2 rounded hover-bg-blue-accent transition-colors">WhatsApp Inquiry</button>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="pb-12 sm:pb-20 bg-white">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-<div class="bg-[#EBF3FF] rounded-2xl p-6 sm:p-8 flex items-center justify-between group cursor-pointer gap-4">
-<div class="min-w-0">
-<h3 class="text-lg sm:text-xl font-bold mb-1 truncate">Buy iPhone</h3>
-<p class="text-sm text-slate-500 mb-4 line-clamp-2">Wide range of original iPhones.</p>
-<span class="text-sm font-bold text-blue-accent group-hover:underline">Explore Now</span>
-</div>
-<div class="w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-xl flex items-center justify-center shadow-sm shrink-0">
-<svg class="w-7 h-7 sm:w-8 sm:h-8 text-blue-accent" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</div>
-</div>
-<div class="bg-[#FFF4E5] rounded-2xl p-6 sm:p-8 flex items-center justify-between group cursor-pointer gap-4">
-<div class="min-w-0">
-<h3 class="text-lg sm:text-xl font-bold mb-1 truncate">Sell Your iPhone</h3>
-<p class="text-sm text-slate-500 mb-4 line-clamp-2">Get the best value for your device.</p>
-<span class="text-sm font-bold text-orange-600 group-hover:underline">Sell Now</span>
-</div>
-<div class="w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-xl flex items-center justify-center shadow-sm shrink-0">
-<svg class="w-7 h-7 sm:w-8 sm:h-8 text-orange-500" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</div>
-</div>
-<div class="bg-[#F0FDF4] rounded-2xl p-6 sm:p-8 flex items-center justify-between group cursor-pointer gap-4 md:col-span-2 lg:col-span-1">
-<div class="min-w-0">
-<h3 class="text-lg sm:text-xl font-bold mb-1 truncate">Trade-In Available</h3>
-<p class="text-sm text-slate-500 mb-4 line-clamp-2">Upgrade your device easily.</p>
-<span class="text-sm font-bold text-green-600 group-hover:underline">Learn More</span>
-</div>
-<div class="w-14 h-14 sm:w-16 sm:h-16 bg-white rounded-xl flex items-center justify-center shadow-sm shrink-0">
-<svg class="w-7 h-7 sm:w-8 sm:h-8 text-green-500" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-</div>
-</div>
-</div>
-</section>
-<section class="py-12 sm:py-20 bg-slate-50" data-purpose="repair-services">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-12 gap-4">
-<div>
-<h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">Professional Repair Services</h2>
-<p class="text-slate-500">Expert solutions for every iPhone issue.</p>
-</div>
-<a class="text-slate-900 font-semibold border-b-2 border-slate-900 pb-1 hover:text-blue-accent hover:border-blue-accent transition-colors self-start sm:self-auto" href="services.html">View All Services</a>
-</div>
-<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:grid-cols-3 sm:gap-6">
-<div class="bg-white p-4 sm:p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-blue-accent transition-colors duration-300">
-<div class="w-14 h-14 sm:w-16 sm:h-16 mb-4 bg-blue-50 rounded-xl flex items-center justify-center group-hover:bg-white transition-colors shrink-0">
-<svg class="w-7 h-7 sm:w-8 sm:h-8 text-blue-accent" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</div>
-<span class="font-bold text-xs sm:text-sm group-hover:text-white line-clamp-2">Screen Replacement</span>
-</div>
-<div class="bg-white p-4 sm:p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-blue-accent transition-colors duration-300">
-<div class="w-14 h-14 sm:w-16 sm:h-16 mb-4 bg-blue-50 rounded-xl flex items-center justify-center group-hover:bg-white transition-colors shrink-0">
-<svg class="w-7 h-7 sm:w-8 sm:h-8 text-blue-accent" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</div>
-<span class="font-bold text-xs sm:text-sm group-hover:text-white line-clamp-2">Battery Replacement</span>
-</div>
-<div class="bg-white p-4 sm:p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-blue-accent transition-colors duration-300">
-<div class="w-14 h-14 sm:w-16 sm:h-16 mb-4 bg-blue-50 rounded-xl flex items-center justify-center group-hover:bg-white transition-colors shrink-0">
-<svg class="w-7 h-7 sm:w-8 sm:h-8 text-blue-accent" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</div>
-<span class="font-bold text-xs sm:text-sm group-hover:text-white line-clamp-2">Back Glass Repair</span>
-</div>
-<div class="bg-white p-4 sm:p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-blue-accent transition-colors duration-300">
-<div class="w-14 h-14 sm:w-16 sm:h-16 mb-4 bg-blue-50 rounded-xl flex items-center justify-center group-hover:bg-white transition-colors shrink-0">
-<svg class="w-7 h-7 sm:w-8 sm:h-8 text-blue-accent" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</div>
-<span class="font-bold text-xs sm:text-sm group-hover:text-white line-clamp-2">Charging Port Repair</span>
-</div>
-<div class="bg-white p-4 sm:p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-blue-accent transition-colors duration-300 col-span-2 sm:col-span-1">
-<div class="w-14 h-14 sm:w-16 sm:h-16 mb-4 bg-blue-50 rounded-xl flex items-center justify-center group-hover:bg-white transition-colors shrink-0">
-<svg class="w-7 h-7 sm:w-8 sm:h-8 text-blue-accent" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
-</div>
-<span class="font-bold text-xs sm:text-sm group-hover:text-white line-clamp-2">Camera Repair</span>
-</div>
-</div>
-</div>
-</section>
-<section class="py-12 sm:py-20 bg-white" data-purpose="parts-preview">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-10 gap-4">
-<div>
-<h2 class="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">Original Apple Parts</h2>
-<p class="text-slate-500">100% Genuine Apple Parts for your DIY repair or purchase.</p>
-</div>
-<a class="text-slate-900 font-semibold border-b-2 border-slate-900 pb-1 hover:text-blue-accent hover:border-blue-accent transition-colors self-start sm:self-auto" href="original_parts.html">View All Parts</a>
-</div>
-<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6">
-<div class="bg-gray-50 p-4 rounded-xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-blue-accent transition-all">
-<div class="w-16 h-16 sm:w-20 sm:h-20 mb-3 flex items-center justify-center">
-<img alt="OLED Display" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5x0o434yy7AghAz1E0wALJALCns1RnyWGXO5GSA9dXMH91_1PKIDU8bdmKP8ErRLadodl4A2tp4UpPWsicI4JbcmOQCti8S7Aw9bgViKMo1R6KKMBMDAags44_zabRD2mKdU52I1ni5MgYPWCo2NI5IBHGleX8FwOFY7jFkbg9luwOqe8pMbNer7P7tH_ojV1lbyeHEXtyjcobIHOasHvdB8bnTSa7Y2bAtIn2EfjCqPIU2bowv6Wew"/>
-</div>
-<span class="text-xs sm:text-sm font-bold text-center truncate w-full">OLED Display</span>
-</div>
-<div class="bg-gray-50 p-4 rounded-xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-blue-accent transition-all">
-<div class="w-16 h-16 sm:w-20 sm:h-20 mb-3 flex items-center justify-center">
-<img alt="Battery" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ08pAU21fOxRlpLkTJjXOgyFA84MRgvsR7fCPsxyzAvMpFiB5Bw7H5hOWEbgzgq471X5V8fXveI4HMxz6AwxS_dZd3K6I10hisrQwOdQ7BDTSbOpySzXII5j86-G6zVaRHmhvec5dIOgAGhnBpAX27mbW4oouXRN-983qPW8tnSUhFhaM_MlaslZm06Nu3P1eWtpuSvW3sDWm2xb_CeYYPO2JYGu1Qpeg2Kw9Sr4l03TPRopezjwYrQ"/>
-</div>
-<span class="text-xs sm:text-sm font-bold text-center truncate w-full">Battery</span>
-</div>
-<div class="bg-gray-50 p-4 rounded-xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-blue-accent transition-all">
-<div class="w-16 h-16 sm:w-20 sm:h-20 mb-3 flex items-center justify-center">
-<img alt="Housing" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCszm_YgIvsN8IyCvoel15MFWYQuR1rEIJ9sIQ1iiTLg66A8xMX52c4mA5mRe53QAu8jf_IvDOaUtmVbWWJ_9aiVetmvaSEVZfBkaMrT66vSg1CvwhaUJtfiYypK-fSqjHePGmFNT5_hnZ_nELy0IL-Lbi8OuqV0rfl_RvRGwM5ZL6kZncqzpmsjr1CZWb9nakuUplMDQrGxTQzL1qafgsG8k2i_Kjkp3j7O6Tr8KPn3UjZ7aIBF6rT5g"/>
-</div>
-<span class="text-xs sm:text-sm font-bold text-center truncate w-full">Housing</span>
-</div>
-<div class="bg-gray-50 p-4 rounded-xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-blue-accent transition-all">
-<div class="w-16 h-16 sm:w-20 sm:h-20 mb-3 flex items-center justify-center">
-<img alt="Camera" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDh7Cy0vlImP8m1C20wXlE98meKKFgacksvhZuoE8wFhc95foNFHb6BGgDtcYILlRj3pI2k8yEDI5VjT_midJrHsZP7HdmI426UrGXSoaXL70BYz_Nk3EyjUWoToPPcGX0v1LboUN6j41-yFUkIMSMkwt3w0T-nFVoyr3yw5S2Sbrtve5n_uRU0ndqGL-lL1JRzWOngFQmJYSLZQ6mRcGTxUAPgx-CeAKpgMMJ8_dzAzEeBthCYyq6Kjw"/>
-</div>
-<span class="text-xs sm:text-sm font-bold text-center truncate w-full">Camera</span>
-</div>
-<div class="bg-gray-50 p-4 rounded-xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-blue-accent transition-all">
-<div class="w-16 h-16 sm:w-20 sm:h-20 mb-3 flex items-center justify-center">
-<img alt="Speaker" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCn3McO4OdyPm6geLkSkzu8_rv6VU-9mE9YgY_PTakLZEbUb0GBw8OhLhe3bmzKLOtihRVgoiR__iP5YoNJJtp2y-gsoxfQm8wri0APWagvvGVaE0iHi5WHw_OdQCVqPPHrvK0ZYUVFXyxgyx4Qma1CFi2FlHJX3HaZl66uk7ZPeH8ffjIFgDRDeiKrNKIS7l8uhf7i2Ju1hLdq9PJkjVd4U4u--wtZmUpG1-XWdNSU3BK0QW7EbXeQmw"/>
-</div>
-<span class="text-xs sm:text-sm font-bold text-center truncate w-full">Speaker</span>
-</div>
-<div class="bg-gray-50 p-4 rounded-xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-blue-accent transition-all">
-<div class="w-16 h-16 sm:w-20 sm:h-20 mb-3 flex items-center justify-center">
-<img alt="Flex Cable" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwNHGY1cAXL6Xni9o0EO23KbhwtlM-GyjoWv0ywHq-rqmelCcpQjod-V2yrmDeNIVgb-WzwY1EpcIZ2B_D1gzQ4OguFmpsTnYiTXqdbo9KpBiwmeQN_JU4G2DyOldvekZ0dV4OprDZXF-M1cn77WdMddOvUackpzX-4bzARs8uNMtlQKmgDnHv1axOHIQ9JamTjRCbL2ZY2YWY0oVNmFX7c83k6ndnajuc9b40XjFZUxEn2sc6cyMlew"/>
-</div>
-<span class="text-xs sm:text-sm font-bold text-center truncate w-full">Flex Cable</span>
-</div>
-</div>
-</div>
-</section>
-<section class="py-12 sm:py-20 bg-white border-t border-gray-100" data-purpose="about-section">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-<div>
-<h2 class="text-2xl sm:text-3xl font-bold mb-6">About NexaAI</h2>
-<p class="text-slate-600 mb-8 leading-relaxed text-sm sm:text-base">
-              At NexaAI, we are passionate about providing the best iPhone solutions, professional repair services, and genuine original parts. Our mission is to deliver quality, trust, and excellence in every interaction.
+    
+    <!-- Intelligent Dark Gradient Overlay for flawless contrast on all screens -->
+    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/85 to-slate-900/40 sm:bg-gradient-to-r sm:from-slate-900 sm:via-slate-900/90 sm:to-transparent z-10"></div>
+
+    <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div class="max-w-2xl text-center sm:text-left pt-12 sm:pt-0">
+            <span class="inline-flex items-center gap-1.5 py-1 px-3 bg-primary/20 text-blue-400 text-xs font-semibold rounded-full mb-4 border border-primary/30">
+                <span class="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse"></span> Authorized Apple Solutions
+            </span>
+            <h1 class="font-display text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight leading-[1.1] mb-6">
+                Premium iPhone Store & <span class="text-blue-500">Professional Repair</span>
+            </h1>
+            <p class="text-base sm:text-lg text-slate-300 mb-8 max-w-lg mx-auto sm:mx-0">
+                Buy, Sell, Trade-In, & Professional Diagnostics. Engineered with genuine original Apple parts and premium diagnostics.
             </p>
-<div class="grid grid-cols-3 gap-2 sm:grid-cols-3 sm:gap-8 mb-8">
-<div class="text-center">
-<div class="text-2xl sm:text-3xl font-bold text-blue-accent mb-1">10+</div>
-<div class="text-[10px] sm:text-xs text-slate-500 uppercase tracking-wide break-words">Years Experience</div>
-</div>
-<div class="text-center">
-<div class="text-2xl sm:text-3xl font-bold text-blue-accent mb-1">15K+</div>
-<div class="text-[10px] sm:text-xs text-slate-500 uppercase tracking-wide break-words">Happy Customers</div>
-</div>
-<div class="text-center">
-<div class="text-2xl sm:text-3xl font-bold text-blue-accent mb-1">5K+</div>
-<div class="text-[10px] sm:text-xs text-slate-500 uppercase tracking-wide break-words">Always Satisfaction</div>
-</div>
-</div>
-<h3 class="text-xl font-bold mb-4">Why Choose NexaAI</h3>
-<ul class="space-y-4">
-<li class="flex items-start gap-3">
-<div class="mt-1 bg-blue-50 p-1 rounded-full shrink-0"><svg class="w-4 h-4 text-blue-600" fill="currentColor" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill-rule="evenodd"></path></svg></div>
-<div>
-<span class="font-bold block text-sm sm:text-base">Expert Technicians</span>
-<p class="text-xs sm:text-sm text-slate-500">Our team is highly trained and experienced.</p>
-</div>
-</li>
-<li class="flex items-start gap-3">
-<div class="mt-1 bg-blue-50 p-1 rounded-full shrink-0"><svg class="w-4 h-4 text-blue-600" fill="currentColor" viewbox="0 0 20 20"><path clip-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" fill-rule="evenodd"></path></svg></div>
-<div>
-<span class="font-bold block text-sm sm:text-base">Original Parts</span>
-<p class="text-xs sm:text-sm text-slate-500">We use only 100% genuine Apple parts.</p>
-</div>
-</li>
-</ul>
-</div>
-<div class="grid grid-cols-2 gap-4">
-<div class="space-y-4">
-<img alt="Store Front" class="rounded-2xl w-full h-32 sm:h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjOSQ9XyV8mwKMvc-GPqy7xn4-QNJKC5s2mXDKnMMBfOCGO77DosVKQTC0mcP_HMgohW44YSQ-vk4HKVbi0RcR9kxuZQ4UTSQQUjNx01TsOIiwfK1LpGlAUXzdRinale7SctEfK5RYzIuBbYd-XsVT1r2hMRp6FYa2JbsHq6HOPlUTJ5odlF-B8CgglsQ61UhHuHW5xnKRVj5XVFxrO8szh9XyF6Jnvr2RmT1lXlhsnc_ycJm4HrSzXQ"/>
-<img alt="Technician" class="rounded-2xl w-full h-44 sm:h-64 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBH5qsG0V4nZg8oASjMbf8nuzKEhYraX12-9og9AQk10LP3iKGjQHLKnATd1faciHzSEJ8fz6EXFn9xB1Lj5UIum_dnFDqpixvnD87uVDRRs0-wvAO49t7vyLtFkZqsJnzSsphsMI8PashUuTGTaryaRWILx14UJ48K8jtM3kYPwFhm5I6T0PtBi4SEhTxB9PZOxTET-UH7FnZsdHZPE1GO9qEi9ecS1yFPQpm_HpqWnKPqcl5f5OUk6g"/>
-</div>
-<div class="space-y-4 pt-4 sm:pt-8">
-<img alt="Tools" class="rounded-2xl w-full h-44 sm:h-64 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDU6G33zERE1QXN9Ffd1t8ttgMFxiQj3e2MIC6OFPb-XnkJ2PhOhPtK1q1CF7lQ7_a-xoyvCSRkjQPC1Dpie9LTOmIBnpyVFZ_uhPDxiiH2Co9vyMAPKJ39iB5PuWTK2ZlKku3TtTvwZHHrpW26wRxMQWE7JEI1gDrNPYvQwCBEl_V-t0EF9fMwGhcUe0YtfZU1oYm8x5znVodpFJZYRHlPR_PurpITj8XbfKT5y-fFxYvoxnxmK3XJZQ"/>
-<img alt="iPhone Part" class="rounded-2xl w-full h-32 sm:h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD61DX5ecE1iCDGzw3ee_8fjUIV-x8dD6MV-vv22Y-Qc6m7SGk9FqVXWSF5u-TXxuf9RUBqvpEY6NZSF53Bs7GgD142cWctQ3ILR69YingcQEfz8w8gnsJ0WdBEY3J5OOq1BTbzma6JVpYFy0l2G9FTjEwZgSDUBz2U1-d5HFN3poTvYNJ4cQA7BTBMPiltcfQm3KymEqoFsVC6oY1_0mHLyic8f8ooOv_IrJaYhLIIFOfBI5yTnTFvCw"/>
-</div>
-</div>
-</div>
-</div>
+            
+            <div class="flex flex-col sm:flex-row gap-3 justify-center sm:justify-start items-stretch sm:items-center">
+                <a class="bg-primary text-white px-8 py-3.5 rounded-xl font-semibold hover:bg-primary-hover transition-all text-center shadow-md shadow-primary/20" href="collection.html">Explore Collection</a>
+                <a class="bg-slate-800 border border-slate-700 text-white px-8 py-3.5 rounded-xl font-semibold hover:bg-slate-700 transition-all text-center" href="repair_booking.html">Book a Repair</a>
+                <a class="bg-emerald-600 text-white px-8 py-3.5 rounded-xl font-semibold hover:bg-emerald-700 transition-all text-center flex items-center justify-center gap-2" href="#">
+                    <i class="fab fa-whatsapp text-lg"></i> WhatsApp Inquiry
+                </a>
+            </div>
+            
+            <!-- Feature Tags -->
+            <div class="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs font-semibold text-slate-400 uppercase tracking-wider text-left max-w-xs sm:max-w-none mx-auto">
+                <div class="flex items-center gap-2.5"><span class="material-symbols-outlined text-blue-500 text-xl">verified</span> Original Apple Parts</div>
+                <div class="flex items-center gap-2.5"><span class="material-symbols-outlined text-blue-500 text-xl">build</span> Professional Tools</div>
+                <div class="flex items-center gap-2.5"><span class="material-symbols-outlined text-blue-500 text-xl">badge</span> Certified Technicians</div>
+            </div>
+        </div>
+    </div>
 </section>
-</main>
-<div id="footer"></div>
-<script src="js/components.js"></script>
-</body></html>
+
+        <!-- Quick Categories Grid -->
+        <section class="py-12 bg-white border-b border-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Buy Card -->
+                <div class="bg-blue-50/60 rounded-2xl p-6 sm:p-8 flex items-center justify-between group cursor-pointer border border-blue-100/50 hover:border-primary/30 transition-all">
+                    <div class="min-w-0">
+                        <h3 class="text-xl font-bold text-slate-900 mb-1">Buy iPhone</h3>
+                        <p class="text-sm text-slate-500 mb-4">Wide range of premium original iPhones.</p>
+                        <span class="text-sm font-bold text-primary group-hover:underline inline-flex items-center gap-1">Explore Now &rarr;</span>
+                    </div>
+                    <div class="w-14 h-14 bg-white rounded-xl flex items-center justify-center shadow-sm shrink-0 text-primary">
+                        <span class="material-symbols-outlined text-3xl">shopping_bag</span>
+                    </div>
+                </div>
+                <!-- Sell Card -->
+                <div class="bg-amber-50/60 rounded-2xl p-6 sm:p-8 flex items-center justify-between group cursor-pointer border border-amber-100/50 hover:border-amber-500/30 transition-all">
+                    <div class="min-w-0">
+                        <h3 class="text-xl font-bold text-slate-900 mb-1">Sell Your iPhone</h3>
+                        <p class="text-sm text-slate-500 mb-4">Get the absolute best value for your device.</p>
+                        <span class="text-sm font-bold text-amber-700 group-hover:underline inline-flex items-center gap-1">Sell Now &rarr;</span>
+                    </div>
+                    <div class="w-14 h-14 bg-white rounded-xl flex items-center justify-center shadow-sm shrink-0 text-amber-600">
+                        <span class="material-symbols-outlined text-3xl">payments</span>
+                    </div>
+                </div>
+                <!-- Trade-In Card -->
+                <div class="bg-emerald-50/60 rounded-2xl p-6 sm:p-8 flex items-center justify-between group cursor-pointer border border-emerald-100/50 hover:border-emerald-500/30 transition-all">
+                    <div class="min-w-0">
+                        <h3 class="text-xl font-bold text-slate-900 mb-1">Smart Trade-In</h3>
+                        <p class="text-sm text-slate-500 mb-4">Upgrade seamlessly with absolute ease.</p>
+                        <span class="text-sm font-bold text-emerald-700 group-hover:underline inline-flex items-center gap-1">Learn More &rarr;</span>
+                    </div>
+                    <div class="w-14 h-14 bg-white rounded-xl flex items-center justify-center shadow-sm shrink-0 text-emerald-600">
+                        <span class="material-symbols-outlined text-3xl">sync</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- iPhone Collection Section -->
+        <section class="py-16 sm:py-20 bg-background">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-10 gap-4">
+                    <div>
+                        <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 mb-1">Featured iPhone Collection</h2>
+                        <p class="text-slate-500 text-sm">Explore our strictly tested premium tier devices.</p>
+                    </div>
+                    <a class="text-slate-900 font-semibold border-b-2 border-slate-900 pb-0.5 hover:text-primary hover:border-primary transition-colors text-sm self-start sm:self-auto" href="collection.html">View Full Catalog</a>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <!-- Product Card 1 -->
+                    <div class="bg-white border border-slate-100 rounded-2xl p-5 hover:shadow-md transition-all flex flex-col justify-between group">
+                        <div>
+                            <div class="relative mb-4 aspect-square flex items-center justify-center bg-slate-50 rounded-xl p-4 overflow-hidden">
+                                <img alt="iPhone 15 Pro Max" class="object-contain max-h-40 w-full group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChfuKUdkfEv0adUVNlcUzJIkv_l5BTVgaN2QveMVItekhlanz40Pf3TMLi5vAKJPl7ylPmZH9vtcWG2T5rT6-rUVaCIDceNj3jxKJG5DU_S3GT3eNS6zB4B3f_wyVnt2vw6l7BmgMqFwuLStPJY7cRamGwNP0xXisDKF-GHvEXoRjW-EzHjP63Awo_YipK0tV-du8TO8SSd-Bt_2LFIqSkpYnmmfwW9s0osv2ZKO5DOqBSPvHOazGjAA"/>
+                            </div>
+                            <h3 class="text-base font-bold text-slate-900 mb-0.5">iPhone 15 Pro Max</h3>
+                            <p class="text-xs text-slate-400 mb-3">128GB | 256GB | 512GB | 1TB</p>
+                            <div class="flex flex-wrap gap-1.5 mb-5">
+                                <span class="px-2 py-0.5 bg-emerald-50 text-emerald-700 text-[10px] font-semibold rounded-md border border-emerald-100">PTA Approved</span>
+                                <span class="px-2 py-0.5 bg-blue-50 text-primary text-[10px] font-semibold rounded-md border border-blue-100">Grade A++ Condition</span>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 mt-auto">
+                            <button class="text-xs font-semibold border border-slate-200 py-2.5 rounded-lg hover:bg-slate-50 transition-colors">Details</button>
+                            <button class="text-xs font-semibold bg-primary text-white py-2.5 rounded-lg hover:bg-primary-hover transition-colors flex items-center justify-center gap-1"><i class="fab fa-whatsapp"></i> Inquiry</button>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="bg-white border border-slate-100 rounded-2xl p-5 hover:shadow-md transition-all flex flex-col justify-between group">
+                        <div>
+                            <div class="relative mb-4 aspect-square flex items-center justify-center bg-slate-50 rounded-xl p-4 overflow-hidden">
+                                <img alt="iPhone 15 Pro" class="object-contain max-h-40 w-full group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZTdnHysvCqy_7q3fF2iiwgeRnw0pyW3yq0kZOkSgEy_8xDy6mkzpDo7M4o-vG8cFs-1oS-e_kQM4tpcYAUBaR5O8CL-rIa7rL8o4IgPdMD354aaVcHTXndc9DvoXfbaNVxPvm79RbtHqW5ZlDJon5LfnugjX1gPt0kA7gi1ncpAsdflMFQyFEpQd2DGyfE_g738kl2H68jKsgSdZvaCNg0dyYv_eK3L1CIVdFwIOghaj22HleVQM40g"/>
+                            </div>
+                            <h3 class="text-base font-bold text-slate-900 mb-0.5">iPhone 15 Pro</h3>
+                            <p class="text-xs text-slate-400 mb-3">128GB | 256GB | 512GB | 1TB</p>
+                            <div class="flex flex-wrap gap-1.5 mb-5">
+                                <span class="px-2 py-0.5 bg-emerald-50 text-emerald-700 text-[10px] font-semibold rounded-md border border-emerald-100">PTA Approved</span>
+                                <span class="px-2 py-0.5 bg-blue-50 text-primary text-[10px] font-semibold rounded-md border border-blue-100">Grade A++ Condition</span>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 mt-auto">
+                            <button class="text-xs font-semibold border border-slate-200 py-2.5 rounded-lg hover:bg-slate-50 transition-colors">Details</button>
+                            <button class="text-xs font-semibold bg-primary text-white py-2.5 rounded-lg hover:bg-primary-hover transition-colors flex items-center justify-center gap-1"><i class="fab fa-whatsapp"></i> Inquiry</button>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="bg-white border border-slate-100 rounded-2xl p-5 hover:shadow-md transition-all flex flex-col justify-between group">
+                        <div>
+                            <div class="relative mb-4 aspect-square flex items-center justify-center bg-slate-50 rounded-xl p-4 overflow-hidden">
+                                <img alt="iPhone 14 Pro Max" class="object-contain max-h-40 w-full group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBUORKhSn2s8tVAAbfC_WaRQ-YPRYM3_ErciEOsqN6af5-gPjvGs87LHVsCHyCyMbykwsplAHV-RIvRqBdgnTtl8TG4tT_i1nyEDzakIhpWIk4rcYAGnLowWyV6cLbpNYSjunqh8D8vSJArsMzkPhCir0PUo4IDLR1Htkouk5pz70x_-Y20IVoSb9g2ybIhRE51U1Uv5XEOVZKIkGpl4UD8_oWlfTbr6iGP_5Ajz99SdgI1IWh2YPqScQ"/>
+                            </div>
+                            <h3 class="text-base font-bold text-slate-900 mb-0.5">iPhone 14 Pro Max</h3>
+                            <p class="text-xs text-slate-400 mb-3">128GB | 256GB | 512GB | 1TB</p>
+                            <div class="flex flex-wrap gap-1.5 mb-5">
+                                <span class="px-2 py-0.5 bg-emerald-50 text-emerald-700 text-[10px] font-semibold rounded-md border border-emerald-100">PTA Approved</span>
+                                <span class="px-2 py-0.5 bg-blue-50 text-primary text-[10px] font-semibold rounded-md border border-blue-100">Grade A++ Condition</span>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 mt-auto">
+                            <button class="text-xs font-semibold border border-slate-200 py-2.5 rounded-lg hover:bg-slate-50 transition-colors">Details</button>
+                            <button class="text-xs font-semibold bg-primary text-white py-2.5 rounded-lg hover:bg-primary-hover transition-colors flex items-center justify-center gap-1"><i class="fab fa-whatsapp"></i> Inquiry</button>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="bg-white border border-slate-100 rounded-2xl p-5 hover:shadow-md transition-all flex flex-col justify-between group">
+                        <div>
+                            <div class="relative mb-4 aspect-square flex items-center justify-center bg-slate-50 rounded-xl p-4 overflow-hidden">
+                                <img alt="iPhone 14 Pro" class="object-contain max-h-40 w-full group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDew_xNTWTD3ComwE-d6TfWVfBpo1iT8iDyzj3fQZ_fWU96ZSUkvyFhdqbpbFbE_RR13aLSU5aLf6uIqRQMtysKOH46aD9ZeQVUCEk2utwC2lLku3S3lnu2FhIyq5stNM1RzWI4OJ4KQrWMD2Nu7ZeOKJYcivRd-t3fag1oqy4MRbK8wc9-FOpDty6dqZAHTKfcQDp0jIGvvdI1eVQbRw2ciLuttz8ybJXVUGi6p_UTjLn7-SUgufTJCw"/>
+                            </div>
+                            <h3 class="text-base font-bold text-slate-900 mb-0.5">iPhone 14 Pro</h3>
+                            <p class="text-xs text-slate-400 mb-3">128GB | 256GB | 512GB | 1TB</p>
+                            <div class="flex flex-wrap gap-1.5 mb-5">
+                                <span class="px-2 py-0.5 bg-emerald-50 text-emerald-700 text-[10px] font-semibold rounded-md border border-emerald-100">PTA Approved</span>
+                                <span class="px-2 py-0.5 bg-blue-50 text-primary text-[10px] font-semibold rounded-md border border-blue-100">Grade A++ Condition</span>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 mt-auto">
+                            <button class="text-xs font-semibold border border-slate-200 py-2.5 rounded-lg hover:bg-slate-50 transition-colors">Details</button>
+                            <button class="text-xs font-semibold bg-primary text-white py-2.5 rounded-lg hover:bg-primary-hover transition-colors flex items-center justify-center gap-1"><i class="fab fa-whatsapp"></i> Inquiry</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Repair Services Section -->
+        <section class="py-16 sm:py-20 bg-slate-900 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-12 gap-4">
+                    <div>
+                        <span class="text-xs font-bold tracking-widest text-primary uppercase block mb-2">On-Demand Fixes</span>
+                        <h2 class="text-2xl sm:text-3xl font-display font-bold mb-1">Professional Repair Services</h2>
+                        <p class="text-slate-400 text-sm">Expert certified solutions for premium tech hardware breakdowns.</p>
+                    </div>
+                    <a class="text-white font-semibold border-b-2 border-white pb-0.5 hover:text-primary hover:border-primary transition-colors text-sm self-start sm:self-auto" href="services.html">View All Services</a>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+                    <!-- Service 1 -->
+                    <div class="bg-slate-800/50 border border-slate-800 p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-primary hover:border-primary transition-all duration-300 cursor-pointer">
+                        <div class="w-14 h-14 mb-4 bg-slate-800 rounded-xl flex items-center justify-center group-hover:bg-white/10 transition-colors text-primary group-hover:text-white shrink-0">
+                            <span class="material-symbols-outlined text-3xl">phone_iphone</span>
+                        </div>
+                        <span class="font-semibold text-sm">Screen Replacement</span>
+                    </div>
+                    <!-- Service 2 -->
+                    <div class="bg-slate-800/50 border border-slate-800 p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-primary hover:border-primary transition-all duration-300 cursor-pointer">
+                        <div class="w-14 h-14 mb-4 bg-slate-800 rounded-xl flex items-center justify-center group-hover:bg-white/10 transition-colors text-primary group-hover:text-white shrink-0">
+                            <span class="material-symbols-outlined text-3xl">battery_charging_full</span>
+                        </div>
+                        <span class="font-semibold text-sm">Battery Swap</span>
+                    </div>
+                    <!-- Service 3 -->
+                    <div class="bg-slate-800/50 border border-slate-800 p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-primary hover:border-primary transition-all duration-300 cursor-pointer">
+                        <div class="w-14 h-14 mb-4 bg-slate-800 rounded-xl flex items-center justify-center group-hover:bg-white/10 transition-colors text-primary group-hover:text-white shrink-0">
+                            <span class="material-symbols-outlined text-3xl">layers</span>
+                        </div>
+                        <span class="font-semibold text-sm">Back Glass Repair</span>
+                    </div>
+                    <!-- Service 4 -->
+                    <div class="bg-slate-800/50 border border-slate-800 p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-primary hover:border-primary transition-all duration-300 cursor-pointer">
+                        <div class="w-14 h-14 mb-4 bg-slate-800 rounded-xl flex items-center justify-center group-hover:bg-white/10 transition-colors text-primary group-hover:text-white shrink-0">
+                            <span class="material-symbols-outlined text-3xl">power</span>
+                        </div>
+                        <span class="font-semibold text-sm">Charging Port Repair</span>
+                    </div>
+                    <!-- Service 5 -->
+                    <div class="bg-slate-800/50 border border-slate-800 p-6 rounded-2xl flex flex-col items-center text-center group hover:bg-primary hover:border-primary transition-all duration-300 cursor-pointer col-span-2 sm:col-span-1">
+                        <div class="w-14 h-14 mb-4 bg-slate-800 rounded-xl flex items-center justify-center group-hover:bg-white/10 transition-colors text-primary group-hover:text-white shrink-0">
+                            <span class="material-symbols-outlined text-3xl">photo_camera</span>
+                        </div>
+                        <span class="font-semibold text-sm">Camera Calibration</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Original Apple Parts Section -->
+        <section class="py-16 sm:py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-10 gap-4">
+                    <div>
+                        <h2 class="text-2xl sm:text-3xl font-display font-bold text-slate-900 mb-1">Original Apple Spare Parts</h2>
+                        <p class="text-slate-500 text-sm">100% Guaranteed OEM components for absolute security and fitment.</p>
+                    </div>
+                    <a class="text-slate-900 font-semibold border-b-2 border-slate-900 pb-0.5 hover:text-primary hover:border-primary transition-colors text-sm self-start sm:self-auto" href="original_parts.html">Browse Spare Components</a>
+                </div>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6">
+                    <!-- Part 1 -->
+                    <div class="bg-slate-50 p-4 rounded-2xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-primary/40 hover:bg-white transition-all text-center">
+                        <div class="w-20 h-20 mb-3 flex items-center justify-center bg-white rounded-xl p-2">
+                            <img alt="OLED Display" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5x0o434yy7AghAz1E0wALJALCns1RnyWGXO5GSA9dXMH91_1PKIDU8bdmKP8ErRLadodl4A2tp4UpPWsicI4JbcmOQCti8S7Aw9bgViKMo1R6KKMBMDAags44_zabRD2mKdU52I1ni5MgYPWCo2NI5IBHGleX8FwOFY7jFkbg9luwOqe8pMbNer7P7tH_ojV1lbyeHEXtyjcobIHOasHvdB8bnTSa7Y2bAtIn2EfjCqPIU2bowv6Wew"/>
+                        </div>
+                        <span class="text-xs sm:text-sm font-bold text-slate-900 truncate w-full">OLED Display Panel</span>
+                    </div>
+                    <!-- Part 2 -->
+                    <div class="bg-slate-50 p-4 rounded-2xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-primary/40 hover:bg-white transition-all text-center">
+                        <div class="w-20 h-20 mb-3 flex items-center justify-center bg-white rounded-xl p-2">
+                            <img alt="Battery" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ08pAU21fOxRlpLkTJjXOgyFA84MRgvsR7fCPsxyzAvMpFiB5Bw7H5hOWEbgzgq471X5V8fXveI4HMxz6AwxS_dZd3K6I10hisrQwOdQ7BDTSbOpySzXII5j86-G6zVaRHmhvec5dIOgAGhnBpAX27mbW4oouXRN-983qPW8tnSUhFhaM_MlaslZm06Nu3P1eWtpuSvW3sDWm2xb_CeYYPO2JYGu1Qpeg2Kw9Sr4l03TPRopezjwYrQ"/>
+                        </div>
+                        <span class="text-xs sm:text-sm font-bold text-slate-900 truncate w-full">OEM Li-ion Battery</span>
+                    </div>
+                    <!-- Part 3 -->
+                    <div class="bg-slate-50 p-4 rounded-2xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-primary/40 hover:bg-white transition-all text-center">
+                        <div class="w-20 h-20 mb-3 flex items-center justify-center bg-white rounded-xl p-2">
+                            <img alt="Housing" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCszm_YgIvsN8IyCvoel15MFWYQuR1rEIJ9sIQ1iiTLg66A8xMX52c4mA5mRe53QAu8jf_IvDOaUtmVbWWJ_9aiVetmvaSEVZfBkaMrT66vSg1CvwhaUJtfiYypK-fSqjHePGmFNT5_hnZ_nELy0IL-Lbi8OuqV0rfl_RvRGwM5ZL6kZncqzpmsjr1CZWb9nakuUplMDQrGxTQzL1qafgsG8k2i_Kjkp3j7O6Tr8KPn3UjZ7aIBF6rT5g"/>
+                        </div>
+                        <span class="text-xs sm:text-sm font-bold text-slate-900 truncate w-full">Titanium Housing Chassis</span>
+                    </div>
+                    <!-- Part 4 -->
+                    <div class="bg-slate-50 p-4 rounded-2xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-primary/40 hover:bg-white transition-all text-center">
+                        <div class="w-20 h-20 mb-3 flex items-center justify-center bg-white rounded-xl p-2">
+                            <img alt="Camera" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDh7Cy0vlImP8m1C20wXlE98meKKFgacksvhZuoE8wFhc95foNFHb6BGgDtcYILlRj3pI2k8yEDI5VjT_midJrHsZP7HdmI426UrGXSoaXL70BYz_Nk3EyjUWoToPPcGX0v1LboUN6j41-yFUkIMSMkwt3w0T-nFVoyr3yw5S2Sbrtve5n_uRU0ndqGL-lL1JRzWOngFQmJYSLZQ6mRcGTxUAPgx-CeAKpgMMJ8_dzAzEeBthCYyq6Kjw"/>
+                        </div>
+                        <span class="text-xs sm:text-sm font-bold text-slate-900 truncate w-full">Camera Module Array</span>
+                    </div>
+                    <!-- Part 5 -->
+                    <div class="bg-slate-50 p-4 rounded-2xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-primary/40 hover:bg-white transition-all text-center">
+                        <div class="w-20 h-20 mb-3 flex items-center justify-center bg-white rounded-xl p-2">
+                            <img alt="Speaker" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCn3McO4OdyPm6geLkSkzu8_rv6VU-9mE9YgY_PTakLZEbUb0GBw8OhLhe3bmzKLOtihRVgoiR__iP5YoNJJtp2y-gsoxfQm8wri0APWagvvGVaE0iHi5WHw_OdQCVqPPHrvK0ZYUVFXyxgyx4Qma1CFi2FlHJX3HaZl66uk7ZPeH8ffjIFgDRDeiKrNKIS7l8uhf7i2Ju1hLdq9PJkjVd4U4u--wtZmUpG1-XWdNSU3BK0QW7EbXeQmw"/>
+                        </div>
+                        <span class="text-xs sm:text-sm font-bold text-slate-900 truncate w-full">Ear Speaker Assembly</span>
+                    </div>
+                    <!-- Part 6 -->
+                    <div class="bg-slate-50 p-4 rounded-2xl flex flex-col items-center group cursor-pointer border border-transparent hover:border-primary/40 hover:bg-white transition-all text-center">
+                        <div class="w-20 h-20 mb-3 flex items-center justify-center bg-white rounded-xl p-2">
+                            <img alt="Flex Cable" class="max-h-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwNHGY1cAXL6Xni9o0EO23KbhwtlM-GyjoWv0ywHq-rqmelCcpQjod-V2yrmDeNIVgb-WzwY1EpcIZ2B_D1gzQ4OguFmpsTnYiTXqdbo9KpBiwmeQN_JU4G2DyOldvekZ0dV4OprDZXF-M1cn77WdMddOvUackpzX-4bzARs8uNMtlQKmgDnHv1axOHIQ9JamTjRCbL2ZY2YWY0oVNmFX7c83k6ndnajuc9b40XjFZUxEn2sc6cyMlew"/>
+                        </div>
+                        <span class="text-xs sm:text-sm font-bold text-slate-900 truncate w-full">Charging Flex Cable</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="py-16 sm:py-20 bg-slate-50 border-t border-slate-100" data-purpose="about-section">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                    <div>
+                        <h2 class="text-2xl sm:text-3xl font-display font-bold mb-4">About NexaAI</h2>
+                        <p class="text-slate-600 mb-8 leading-relaxed text-sm sm:text-base">
+                            At NexaAI, we are passionate about providing the best premium mobile solutions, certified professional device recovery services, and entirely original components. Our infrastructure is tuned to ensure client device longevity with 100% transparency.
+                        </p>
+                        
+                        <!-- Statistics Metrics -->
+                        <div class="grid grid-cols-3 gap-4 mb-8 bg-white border border-slate-200/60 p-5 rounded-2xl text-center">
+                            <div>
+                                <div class="text-2xl sm:text-3xl font-bold text-primary mb-0.5">10+</div>
+                                <div class="text-[10px] sm:text-xs text-slate-400 uppercase tracking-wider font-semibold">Years Active</div>
+                            </div>
+                            <div class="border-x border-slate-100">
+                                <div class="text-2xl sm:text-3xl font-bold text-primary mb-0.5">15K+</div>
+                                <div class="text-[10px] sm:text-xs text-slate-400 uppercase tracking-wider font-semibold">Devices Fixed</div>
+                            </div>
+                            <div>
+                                <div class="text-2xl sm:text-3xl font-bold text-primary mb-0.5">100%</div>
+                                <div class="text-[10px] sm:text-xs text-slate-400 uppercase tracking-wider font-semibold">Satisfaction</div>
+                            </div>
+                        </div>
+
+                        <!-- Trust Checklists -->
+                        <ul class="space-y-4">
+                            <li class="flex items-start gap-3">
+                                <div class="mt-0.5 bg-primary-light p-1 rounded-md shrink-0 text-primary">
+                                    <span class="material-symbols-outlined text-base font-bold">check</span>
+                                </div>
+                                <div>
+                                    <span class="font-bold block text-sm text-slate-900">Expert Apple Diagnostics</span>
+                                    <p class="text-xs sm:text-sm text-slate-500">Every tech operator passes rigorous hardware validation standards.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <div class="mt-0.5 bg-primary-light p-1 rounded-md shrink-0 text-primary">
+                                    <span class="material-symbols-outlined text-base font-bold">check</span>
+                                </div>
+                                <div>
+                                    <span class="font-bold block text-sm text-slate-900">Transparent Pricing</span>
+                                    <p class="text-xs sm:text-sm text-slate-500">Zero hidden service add-on fees. Secure quotations provided beforehand.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Images Mosaic Layout -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="space-y-4">
+                            <img alt="Store Front" class="rounded-2xl w-full h-32 sm:h-48 object-cover shadow-sm hover:scale-[1.01] transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjOSQ9XyV8mwKMvc-GPqy7xn4-QNJKC5s2mXDKnMMBfOCGO77DosVKQTC0mcP_HMgohW44YSQ-vk4HKVbi0RcR9kxuZQ4UTSQQUjNx01TsOIiwfK1LpGlAUXzdRinale7SctEfK5RYzIuBbYd-XsVT1r2hMRp6FYa2JbsHq6HOPlUTJ5odlF-B8CgglsQ61UhHuHW5xnKRVj5XVFxrO8szh9XyF6Jnvr2RmT1lXlhsnc_ycJm4HrSzXQ"/>
+                            <img alt="Technician Working" class="rounded-2xl w-full h-44 sm:h-64 object-cover shadow-sm hover:scale-[1.01] transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBH5qsG0V4nZg8oASjMbf8nuzKEhYraX12-9og9AQk10LP3iKGjQHLKnATd1faciHzSEJ8fz6EXFn9xB1Lj5UIum_dnFDqpixvnD87uVDRRs0-wvAO49t7vyLtFkZqsJnzSsphsMI8PashUuTGTaryaRWILx14UJ48K8jtM3kYPwFhm5I6T0PtBi4SEhTxB9PZOxTET-UH7FnZsdHZPE1GO9qEi9ecS1yFPQpm_HpqWnKPqcl5f5OUk6g"/>
+                        </div>
+                        <div class="space-y-4 pt-4 sm:pt-8">
+                            <img alt="Precision Tools" class="rounded-2xl w-full h-44 sm:h-64 object-cover shadow-sm hover:scale-[1.01] transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDU6G33zERE1QXN9Ffd1t8ttgMFxiQj3e2MIC6OFPb-XnkJ2PhOhPtK1q1CF7lQ7_a-xoyvCSRkjQPC1Dpie9LTOmIBnpyVFZ_uhPDxiiH2Co9vyMAPKJ39iB5PuWTK2ZlKku3TtTvwZHHrpW26wRxMQWE7JEI1gDrNPYvQwCBEl_V-t0EF9fMwGhcUe0YtfZU1oYm8x5znVodpFJZYRHlPR_PurpITj8XbfKT5y-fFxYvoxnxmK3XJZQ"/>
+                            <img alt="iPhone Internal Parts" class="rounded-2xl w-full h-32 sm:h-48 object-cover shadow-sm hover:scale-[1.01] transition-transform" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD61DX5ecE1iCDGzw3ee_8fjUIV-x8dD6MV-vv22Y-Qc6m7SGk9FqVXWSF5u-TXxuf9RUBqvpEY6NZSF53Bs7GgD142cWctQ3ILR69YingcQEfz8w8gnsJ0WdBEY3J5OOq1BTbzma6JVpYFy0l2G9FTjEwZgSDUBz2U1-d5HFN3poTvYNJ4cQA7BTBMPiltcfQm3KymEqoFsVC6oY1_0mHLyic8f8ooOv_IrJaYhLIIFOfBI5yTnTFvCw"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer"></div>
+    <script src="js/components.js"></script>
+</body>
+
+</html>
