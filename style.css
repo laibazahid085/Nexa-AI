@@ -130,3 +130,13 @@
             background-color: #fcf8fb;
             color: #1b1b1d;
         }
+
+        body {
+    padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 100px;
+    }
+}
