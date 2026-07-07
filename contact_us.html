@@ -1,269 +1,265 @@
 <!DOCTYPE html>
-
-<html class="light" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Contact Us | NexaAI - Premium Apple Retail &amp; Repair</title>
-<!-- Tailwind CSS -->
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<!-- Google Fonts -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
-<!-- Material Symbols -->
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            "colors": {
-                    "outline": "#717786",
-                    "secondary-fixed-dim": "#c6c6c8",
-                    "tertiary-fixed": "#72fe88",
-                    "tertiary": "#006b27",
-                    "secondary-fixed": "#e2e2e4",
-                    "on-tertiary": "#ffffff",
-                    "outline-variant": "#c1c6d7",
-                    "surface-container-high": "#eae7ea",
-                    "surface-dim": "#dcd9dc",
-                    "inverse-surface": "#303032",
-                    "surface-bright": "#fcf8fb",
-                    "error": "#ba1a1a",
-                    "on-secondary-container": "#616365",
-                    "on-tertiary-fixed": "#002107",
-                    "on-secondary-fixed": "#1a1c1d",
-                    "primary-container": "#0070eb",
-                    "tertiary-fixed-dim": "#53e16f",
-                    "surface-container-highest": "#e4e2e4",
-                    "on-tertiary-fixed-variant": "#00531c",
-                    "inverse-primary": "#adc6ff",
-                    "surface-tint": "#005bc1",
-                    "surface-container-lowest": "#ffffff",
-                    "surface-container": "#f0edef",
-                    "on-primary-container": "#fefcff",
-                    "secondary-container": "#dfdfe1",
-                    "primary": "#0058bc",
-                    "on-primary-fixed": "#001a41",
-                    "inverse-on-surface": "#f3f0f2",
-                    "surface-variant": "#e4e2e4",
-                    "secondary": "#5d5e60",
-                    "on-primary-fixed-variant": "#004493",
-                    "on-error-container": "#93000a",
-                    "error-container": "#ffdad6",
-                    "on-tertiary-container": "#f7fff2",
-                    "on-error": "#ffffff",
-                    "tertiary-container": "#008733",
-                    "on-secondary": "#ffffff",
-                    "surface-container-low": "#f6f3f5",
-                    "primary-fixed-dim": "#adc6ff",
-                    "on-surface-variant": "#414755",
-                    "primary-fixed": "#d8e2ff",
-                    "on-primary": "#ffffff",
-                    "on-surface": "#1b1b1d",
-                    "surface": "#fcf8fb",
-                    "background": "#fcf8fb",
-                    "on-background": "#1b1b1d",
-                    "on-secondary-fixed-variant": "#454749"
-            },
-            "borderRadius": {
-                    "DEFAULT": "0.25rem",
-                    "lg": "0.5rem",
-                    "xl": "0.75rem",
-                    "full": "9999px"
-            },
-            "spacing": {
-                    "section-gap": "80px",
-                    "container-max": "1280px",
-                    "stack-md": "16px",
-                    "gutter": "24px",
-                    "margin-mobile": "20px",
-                    "stack-sm": "8px",
-                    "stack-lg": "24px",
-                    "margin-desktop": "64px"
-            },
-            "fontFamily": {
-                    "body-md": ["Inter"],
-                    "headline-lg-mobile": ["Plus Jakarta Sans"],
-                    "display-lg": ["Plus Jakarta Sans"],
-                    "label-sm": ["Inter"],
-                    "body-sm": ["Inter"],
-                    "headline-md": ["Plus Jakarta Sans"],
-                    "label-md": ["Inter"],
-                    "headline-lg": ["Plus Jakarta Sans"],
-                    "body-lg": ["Inter"]
-            },
-            "fontSize": {
-                    "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
-                    "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}],
-                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-                    "label-sm": ["12px", {"lineHeight": "1", "fontWeight": "500"}],
-                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
-                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
-                    "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
-                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
-                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}]
-            }
+<html class="light scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Contact Us | NexaAI - Premium Apple Retail & Repair</title>
+  
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght=400;500;600&family=Plus+Jakarta+Sans:wght=600;700;800&display=swap" rel="stylesheet"/>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "outline": "#717786",
+            "secondary-fixed-dim": "#c6c6c8",
+            "tertiary-fixed": "#72fe88",
+            "tertiary": "#006b27",
+            "secondary-fixed": "#e2e2e4",
+            "on-tertiary": "#ffffff",
+            "outline-variant": "#c1c6d7",
+            "surface-container-high": "#eae7ea",
+            "surface-dim": "#dcd9dc",
+            "inverse-surface": "#303032",
+            "surface-bright": "#fcf8fb",
+            "error": "#ba1a1a",
+            "on-secondary-container": "#616365",
+            "on-tertiary-fixed": "#002107",
+            "on-secondary-fixed": "#1a1c1d",
+            "primary-container": "#0070eb",
+            "tertiary-fixed-dim": "#53e16f",
+            "surface-container-highest": "#e4e2e4",
+            "on-tertiary-fixed-variant": "#00531c",
+            "inverse-primary": "#adc6ff",
+            "surface-tint": "#005bc1",
+            "surface-container-lowest": "#ffffff",
+            "surface-container": "#f0edef",
+            "on-primary-container": "#fefcff",
+            "secondary-container": "#dfdfe1",
+            "primary": "#0058bc",
+            "on-primary-fixed": "#001a41",
+            "inverse-on-surface": "#f3f0f2",
+            "surface-variant": "#e4e2e4",
+            "secondary": "#5d5e60",
+            "on-primary-fixed-variant": "#004493",
+            "on-error-container": "#93000a",
+            "error-container": "#ffdad6",
+            "on-tertiary-container": "#f7fff2",
+            "on-error": "#ffffff",
+            "tertiary-container": "#008733",
+            "on-secondary": "#ffffff",
+            "surface-container-low": "#f6f3f5",
+            "primary-fixed-dim": "#adc6ff",
+            "on-surface-variant": "#414755",
+            "primary-fixed": "#d8e2ff",
+            "on-primary": "#ffffff",
+            "on-surface": "#1b1b1d",
+            "surface": "#fcf8fb",
+            "background": "#fcf8fb",
+            "on-background": "#1b1b1d",
+            "on-secondary-fixed-variant": "#454749"
           },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "section-gap": "80px",
+            "container-max": "1280px",
+            "stack-md": "16px",
+            "gutter": "24px",
+            "margin-mobile": "20px",
+            "stack-sm": "8px",
+            "stack-lg": "24px",
+            "margin-desktop": "64px"
+          },
+          "fontFamily": {
+            "body-md": ["Inter"],
+            "headline-lg-mobile": ["Plus Jakarta Sans"],
+            "display-lg": ["Plus Jakarta Sans"],
+            "label-sm": ["Inter"],
+            "body-sm": ["Inter"],
+            "headline-md": ["Plus Jakarta Sans"],
+            "label-md": ["Inter"],
+            "headline-lg": ["Plus Jakarta Sans"],
+            "body-lg": ["Inter"]
+          },
+          "fontSize": {
+            "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+            "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}],
+            "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+            "label-sm": ["12px", {"lineHeight": "1", "fontWeight": "500"}],
+            "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+            "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+            "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+            "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+            "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}]
+          }
         },
-      }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        body {
-            background-color: #fcf8fb;
-            font-family: 'Inter', sans-serif;
-            color: #1b1b1d;
-        }
-        .pro-shadow {
-            box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
-        }
-    </style>
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    body {
+      background-color: #fcf8fb;
+      font-family: 'Inter', sans-serif;
+      color: #1b1b1d;
+    }
+    .pro-shadow {
+      box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+    }
+  </style>
 </head>
-<body class="flex flex-col min-h-screen contact">
-<!-- TopNavBar Component -->
-<div id="navbar"></div>
-<main class="flex-grow">
-<!-- Hero Section -->
-<section class="relative w-full h-[400px] flex items-center justify-center overflow-hidden">
-<div class="absolute inset-0 z-0">
-<div class="w-full h-full bg-cover bg-center" data-alt="A clinical and bright high-end electronics repair lab with pristine white workbenches, organized precision tools, and focused technicians working on delicate circuit boards under soft, diffused professional lighting. The aesthetic is ultra-modern, corporate, and minimalist, emphasizing expertise and cleanliness with a dominant white and soft blue color palette." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCEPV5gPf9VV8JNKkVFkfwZpXAeRDR8lMEEVP1H-MYtOEK3FC-hO-WMNE4SE7L4JlTwkREKwo6FtcQBM59rq8RoL3OiIbS5PRKbgVCO9vY_TOFjrALybCfrI79_T83gEPAteI9U1EbbfJ7K7PYzwmiuDccHAH9v73x9MUtwXPj9H336gR5iLK8nZk7uz6sTXkRACVDhfL1ZiZ1a5HHo4UbbdmrybMDK-6Wk-2I52PK5Mvk-uo958LYpWw')"></div>
-<div class="absolute inset-0 bg-on-background/40 backdrop-blur-[2px]"></div>
-</div>
-<div class="relative z-10 text-center px-margin-mobile">
-<h1 class="font-display-lg text-display-lg text-white mb-stack-sm">Contact Us</h1>
-<p class="font-body-lg text-body-lg text-white/90">We're here to help you. Reach out to our team of Apple experts.</p>
-</div>
-</section>
-<!-- Quick Access Support Cards -->
-<section class="max-w-container-max mx-auto px-margin-desktop -mt-12 relative z-20">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
-<!-- WhatsApp Inquiry -->
-<div class="bg-surface-container-lowest border border-outline-variant p-stack-lg rounded-xl pro-shadow flex items-center gap-stack-lg group hover:border-primary transition-all cursor-pointer">
-<div class="w-16 h-16 bg-primary-container rounded-full flex items-center justify-center text-on-primary-container">
-<span class="material-symbols-outlined text-4xl">chat_bubble</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">WhatsApp Inquiry</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Instant chat with our technicians for quick quotes.</p>
-<span class="text-primary font-label-md mt-2 inline-block group-hover:translate-x-1 transition-transform">Chat Now →</span>
-</div>
-</div>
-<!-- Call Support -->
-<div class="bg-surface-container-lowest border border-outline-variant p-stack-lg rounded-xl pro-shadow flex items-center gap-stack-lg group hover:border-primary transition-all cursor-pointer">
-<div class="w-16 h-16 bg-secondary-container rounded-full flex items-center justify-center text-on-secondary-container">
-<span class="material-symbols-outlined text-4xl">call</span>
-</div>
-<div>
-<h3 class="font-headline-md text-headline-md text-on-surface">Call Support</h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Speak directly to our store manager for repair status.</p>
-<span class="text-primary font-label-md mt-2 inline-block group-hover:translate-x-1 transition-transform">Call Now →</span>
-</div>
-</div>
-</div>
-</section>
-<!-- Main Contact Grid -->
-<section class="max-w-container-max mx-auto px-margin-desktop py-section-gap">
-<div class="flex flex-col lg:flex-row gap-section-gap">
-<!-- Contact Details Column -->
-<div class="lg:w-1/3 flex flex-col gap-stack-lg">
-<div>
-<h2 class="font-headline-lg text-headline-lg text-on-surface mb-stack-md">Get in Touch</h2>
-<p class="font-body-md text-body-md text-on-surface-variant">Choose your preferred method of communication. We're ready to assist with any retail or technical inquiry.</p>
-</div>
-<div class="space-y-stack-lg">
-<!-- Address -->
-<div class="flex gap-stack-md">
-<span class="material-symbols-outlined text-primary">location_on</span>
-<div>
-<h4 class="font-label-md text-label-md text-on-surface">Physical Address</h4>
-<p class="font-body-sm text-body-sm text-on-surface-variant">123 Tech Avenue, Silicon District<br/>New York, NY 10001</p>
-</div>
-</div>
-<!-- Phone -->
-<div class="flex gap-stack-md">
-<span class="material-symbols-outlined text-primary">phone_iphone</span>
-<div>
-<h4 class="font-label-md text-label-md text-on-surface">Phone Number</h4>
-<p class="font-body-sm text-body-sm text-on-surface-variant">+1 (555) 0123-4567</p>
-</div>
-</div>
-<!-- Email -->
-<div class="flex gap-stack-md">
-<span class="material-symbols-outlined text-primary">mail</span>
-<div>
-<h4 class="font-label-md text-label-md text-on-surface">Email Address</h4>
-<p class="font-body-sm text-body-sm text-on-surface-variant">support@nexai.com</p>
-</div>
-</div>
-<!-- Hours -->
-<div class="flex gap-stack-md">
-<span class="material-symbols-outlined text-primary">schedule</span>
-<div>
-<h4 class="font-label-md text-label-md text-on-surface">Working Hours</h4>
-<p class="font-body-sm text-body-sm text-on-surface-variant">Mon - Sat: 10:00 AM - 08:00 PM<br/>Sunday: 12:00 PM - 06:00 PM</p>
-</div>
-</div>
-</div>
-</div>
-<!-- Form Column -->
-<div class="lg:w-2/3 bg-surface-container-low p-stack-lg rounded-xl border border-outline-variant">
-<h2 class="font-headline-lg text-headline-lg text-on-surface mb-stack-lg">Send us a Message</h2>
-<form class="grid grid-cols-1 md:grid-cols-2 gap-stack-md">
-<div class="flex flex-col gap-2">
-<label class="font-label-sm text-label-sm text-on-surface-variant">Full Name</label>
-<input class="w-full p-3 rounded-lg border border-outline-variant bg-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-body-sm transition-all" placeholder="John Doe" type="text"/>
-</div>
-<div class="flex flex-col gap-2">
-<label class="font-label-sm text-label-sm text-on-surface-variant">Phone Number</label>
-<input class="w-full p-3 rounded-lg border border-outline-variant bg-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-body-sm transition-all" placeholder="+1 (555) 000-0000" type="tel"/>
-</div>
-<div class="flex flex-col gap-2 md:col-span-2">
-<label class="font-label-sm text-label-sm text-on-surface-variant">Email Address</label>
-<input class="w-full p-3 rounded-lg border border-outline-variant bg-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-body-sm transition-all" placeholder="john@example.com" type="email"/>
-</div>
-<div class="flex flex-col gap-2 md:col-span-2">
-<label class="font-label-sm text-label-sm text-on-surface-variant">Subject</label>
-<select class="w-full p-3 rounded-lg border border-outline-variant bg-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-body-sm transition-all">
-<option>Repair Status</option>
-<option>Device Purchase</option>
-<option>Trade-in Inquiry</option>
-<option>Technical Support</option>
-<option>Other</option>
-</select>
-</div>
-<div class="flex flex-col gap-2 md:col-span-2">
-<label class="font-label-sm text-label-sm text-on-surface-variant">Message</label>
-<textarea class="w-full p-3 rounded-lg border border-outline-variant bg-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-body-sm transition-all resize-none" placeholder="How can we help you?" rows="4"></textarea>
-</div>
-<div class="md:col-span-2 pt-stack-sm">
-<button class="w-full md:w-fit bg-primary text-on-primary px-10 py-3 rounded-lg font-label-md text-label-md hover:scale-[0.98] transition-all shadow-lg shadow-primary/20" type="submit">Send Message</button>
-</div>
-</form>
-</div>
-</div>
-</section>
-<!-- Map Section -->
-<section class="w-full h-[500px] relative overflow-hidden bg-surface-container">
-<div class="w-full h-full opacity-80 filter grayscale" data-location="New York">
-<!-- Data-location element handled by system for real map -->
-<div class="flex items-center justify-center w-full h-full text-outline-variant italic">
-                    Loading interactive map...
-                 </div>
-</div>
-<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-<div class="bg-white p-4 rounded-xl pro-shadow border border-primary flex flex-col items-center">
-<span class="material-symbols-outlined text-primary text-4xl mb-2" style="font-variation-settings: 'FILL' 1;">location_on</span>
-<span class="font-label-md text-label-md text-on-surface">NexaAI Store</span>
-<span class="font-body-sm text-body-sm text-on-surface-variant">Silicon District</span>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer Component -->
-<div id="footer"></div>
-<script src="js/components.js"></script>
-<script src="js/main.js"></script>
-</body></html>
+<body class="flex flex-col min-h-screen contact overflow-x-hidden">
+  
+ <div class="block h-[52px] md:h-[88px] w-full invisible pointer-events-none"></div>
+
+  <div id="navbar"></div>
+
+  <main class="flex-grow">
+    <section class="relative w-full h-[320px] md:h-[400px] flex items-center justify-center overflow-hidden">
+      <div class="absolute inset-0 z-0">
+        <div class="w-full h-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCEPV5gPf9VV8JNKkVFkfwZpXAeRDR8lMEEVP1H-MYtOEK3FC-hO-WMNE4SE7L4JlTwkREKwo6FtcQBM59rq8RoL3OiIbS5PRKbgVCO9vY_TOFjrALybCfrI79_T83gEPAteI9U1EbbfJ7K7PYzwmiuDccHAH9v73x9MUtwXPj9H336gR5iLK8nZk7uz6sTXkRACVDhfL1ZiZ1a5HHo4UbbdmrybMDK-6Wk-2I52PK5Mvk-uo958LYpWw')"></div>
+        <div class="absolute inset-0 bg-on-background/50 backdrop-blur-[1px]"></div>
+      </div>
+      <div class="relative z-10 text-center px-4 max-w-2xl mx-auto">
+        <h1 class="text-3xl sm:text-4xl md:text-display-lg font-display-lg text-white mb-3">Contact Us</h1>
+        <p class="text-sm sm:text-base md:text-body-lg text-white/95 px-2">We're here to help you. Reach out to our team of Apple experts.</p>
+      </div>
+    </section>
+
+    <section class="max-w-container-max mx-auto px-4 sm:px-6 md:px-margin-desktop -mt-10 relative z-20">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-gutter">
+        <div class="bg-surface-container-lowest border border-outline-variant p-5 sm:p-stack-lg rounded-xl pro-shadow flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-stack-lg group hover:border-primary transition-all cursor-pointer">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 bg-primary-container rounded-full flex items-center justify-center text-on-primary-container shrink-0">
+            <span class="material-symbols-outlined text-3xl sm:text-4xl">chat_bubble</span>
+          </div>
+          <div>
+            <h3 class="text-lg sm:text-headline-md font-headline-md text-on-surface">WhatsApp Inquiry</h3>
+            <p class="text-xs sm:text-body-sm text-on-surface-variant mt-0.5">Instant chat with our technicians for quick quotes.</p>
+            <span class="text-primary font-label-md mt-2 inline-block group-hover:translate-x-1 transition-transform text-sm">Chat Now →</span>
+          </div>
+        </div>
+        <div class="bg-surface-container-lowest border border-outline-variant p-5 sm:p-stack-lg rounded-xl pro-shadow flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-stack-lg group hover:border-primary transition-all cursor-pointer">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 bg-secondary-container rounded-full flex items-center justify-center text-on-secondary-container shrink-0">
+            <span class="material-symbols-outlined text-3xl sm:text-4xl">call</span>
+          </div>
+          <div>
+            <h3 class="text-lg sm:text-headline-md font-headline-md text-on-surface">Call Support</h3>
+            <p class="text-xs sm:text-body-sm text-on-surface-variant mt-0.5">Speak directly to our store manager for repair status.</p>
+            <span class="text-primary font-label-md mt-2 inline-block group-hover:translate-x-1 transition-transform text-sm">Call Now →</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-container-max mx-auto px-4 sm:px-6 md:px-margin-desktop py-12 md:py-section-gap">
+      <div class="flex flex-col lg:flex-row gap-12 lg:gap-section-gap">
+        <div class="lg:w-1/3 flex flex-col gap-6 md:gap-stack-lg">
+          <div>
+            <h2 class="text-2xl sm:text-headline-lg font-headline-lg text-on-surface mb-3">Get in Touch</h2>
+            <p class="text-sm sm:text-body-md text-on-surface-variant">Choose your preferred method of communication. We're ready to assist with any retail or technical inquiry.</p>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-6 sm:gap-4 lg:space-y-2">
+            <div class="flex gap-4 items-start">
+              <span class="material-symbols-outlined text-primary shrink-0 mt-0.5">location_on</span>
+              <div>
+                <h4 class="font-label-md text-label-md text-on-surface">Physical Address</h4>
+                <p class="text-xs sm:text-body-sm text-on-surface-variant mt-1">123 Tech Avenue, Silicon District<br/>New York, NY 10001</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <span class="material-symbols-outlined text-primary shrink-0 mt-0.5">phone_iphone</span>
+              <div>
+                <h4 class="font-label-md text-label-md text-on-surface">Phone Number</h4>
+                <p class="text-xs sm:text-body-sm text-on-surface-variant mt-1">+1 (555) 0123-4567</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <span class="material-symbols-outlined text-primary shrink-0 mt-0.5">mail</span>
+              <div>
+                <h4 class="font-label-md text-label-md text-on-surface">Email Address</h4>
+                <p class="text-xs sm:text-body-sm text-on-surface-variant mt-1">support@nexai.com</p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start">
+              <span class="material-symbols-outlined text-primary shrink-0 mt-0.5">schedule</span>
+              <div>
+                <h4 class="font-label-md text-label-md text-on-surface">Working Hours</h4>
+                <p class="text-xs sm:text-body-sm text-on-surface-variant mt-1">Mon - Sat: 10:00 AM - 08:00 PM<br/>Sunday: 12:00 PM - 06:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:w-2/3 bg-surface-container-low p-5 sm:p-6 md:p-stack-lg rounded-xl border border-outline-variant">
+          <h2 class="text-xl sm:text-headline-lg font-headline-lg text-on-surface mb-6">Send us a Message</h2>
+          <form class="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-stack-md">
+            <div class="flex flex-col gap-1.5">
+              <label class="font-label-sm text-label-sm text-on-surface-variant">Full Name</label>
+              <input class="w-full p-3 rounded-lg border border-outline-variant bg-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-body-sm transition-all" placeholder="John Doe" type="text"/>
+            </div>
+            <div class="flex flex-col gap-1.5">
+              <label class="font-label-sm text-label-sm text-on-surface-variant">Phone Number</label>
+              <input class="w-full p-3 rounded-lg border border-outline-variant bg-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-body-sm transition-all" placeholder="+1 (555) 000-0000" type="tel"/>
+            </div>
+            <div class="flex flex-col gap-1.5 sm:col-span-2">
+              <label class="font-label-sm text-label-sm text-on-surface-variant">Email Address</label>
+              <input class="w-full p-3 rounded-lg border border-outline-variant bg-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-body-sm transition-all" placeholder="john@example.com" type="email"/>
+            </div>
+            <div class="flex flex-col gap-1.5 sm:col-span-2">
+              <label class="font-label-sm text-label-sm text-on-surface-variant">Subject</label>
+              <select class="w-full p-3 rounded-lg border border-outline-variant bg-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-body-sm transition-all">
+                <option>Repair Status</option>
+                <option>Device Purchase</option>
+                <option>Trade-in Inquiry</option>
+                <option>Technical Support</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="flex flex-col gap-1.5 sm:col-span-2">
+              <label class="font-label-sm text-label-sm text-on-surface-variant">Message</label>
+              <textarea class="w-full p-3 rounded-lg border border-outline-variant bg-white focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-body-sm transition-all resize-none" placeholder="How can we help you?" rows="4"></textarea>
+            </div>
+            <div class="sm:col-span-2 pt-2">
+              <button class="w-full sm:w-fit bg-primary text-on-primary px-10 py-3 rounded-lg font-label-md text-label-md hover:scale-[0.98] transition-all shadow-lg shadow-primary/20" type="submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full h-[350px] md:h-[500px] relative overflow-hidden bg-surface-container">
+      <div class="w-full h-full opacity-80 filter grayscale" data-location="New York">
+        <div class="flex items-center justify-center w-full h-full text-outline-variant italic">
+          Loading interactive map...
+        </div>
+      </div>
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-[calc(100%-32px)] sm:w-auto max-w-xs mx-auto">
+        <div class="bg-white p-4 rounded-xl pro-shadow border border-primary flex flex-col items-center text-center">
+          <span class="material-symbols-outlined text-primary text-4xl mb-1" style="font-variation-settings: 'FILL' 1;">location_on</span>
+          <span class="font-label-md text-label-md text-on-surface">NexaAI Store</span>
+          <span class="font-body-sm text-body-sm text-on-surface-variant">Silicon District</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer"></div>
+  
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
