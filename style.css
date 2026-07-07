@@ -1,0 +1,132 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* about */
+   .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+        }
+        .pro-shadow {
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+        }
+        .bento-card {
+            background-color: #ffffff;
+            border: 1px solid #E5E5E7;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .bento-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0px 10px 30px rgba(0,0,0,0.08);
+        }
+
+/* originalparts */
+  .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+    }
+    .scrollbar-hide::-webkit-scrollbar { display: none; }
+    .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* accessories */
+  .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .scrolled-nav {
+            backdrop-filter: blur(8px);
+            background-color: rgba(252, 248, 251, 0.85);
+        }
+        .card-hover {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+        }
+
+/* contact */
+    .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #fcf8fb;
+            font-family: 'Inter', sans-serif;
+            color: #1b1b1d;
+        }
+        .pro-shadow {
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+        }
+/* collection */
+ .collection {
+      background-color: #fcf8fb;
+      color: #1b1b1d;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .product-card {
+      transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+    input[type="checkbox"]:checked {
+      background-color: #0058bc;
+      border-color: #0058bc;
+    }
+/* admindashboard */
+  .admin { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .sidebar-active { background-color: rgba(255, 255, 255, 0.1); border-left: 4px solid #0058bc; }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #c1c6d7; border-radius: 10px; }
+/* repairbooking */
+  .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .step-active { color: var(--tw-primary); border-color: var(--tw-primary); }
+        .form-transition { transition: all 0.3s ease-in-out; }
+        .glass-card { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(229, 229, 231, 0.5); }
+  
+/* whyus */
+ .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 1.5rem;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(229, 229, 231, 0.5);
+        }
+/* services */
+       .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .service-card-hover:hover {
+            transform: translateY(-4px);
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+        }
+        .services {
+            background-color: #fcf8fb;
+            color: #1b1b1d;
+        }
